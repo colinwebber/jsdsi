@@ -1,4 +1,6 @@
 CVS
+.cvsignore
+.settings
 javadoc
 jsdsi
 *.jar

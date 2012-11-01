@@ -1,0 +1,17 @@
+ALICE bob -> BOB
+ALICE carol -> BOB caroljones
+ALICE ted -> BOB caroljones ted
+ALICE friends -> ALICE bob
+ALICE friends -> ALICE carol
+ALICE friends -> ALICE ted
+ALICE friends -> ALICE bob my-friends
+BOB alice -> ALICE
+BOB caroljones -> CAROL
+BOB frank -> FRANK
+BOB my-friends -> BOB alice
+BOB my-friends -> BOB frank
+CAROL ted -> TED
+ALICE !test -> BOB
+BOB +test -> BOB my-friends
+ALICE +test -> CAROL
+CAROL !test -> CAROL ted

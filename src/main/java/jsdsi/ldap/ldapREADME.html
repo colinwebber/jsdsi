@@ -1,0 +1,70 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>JSDSI LDAP Readme</title>
+<meta name="author" content="Unregistered lpmbv">
+</head>
+<body>
+<h2>Readme file for Jsdsi LDAP</h2> 
+<p>
+Spki based certificates had been successfully tested on OpenLDAP and iPlanet Directory Server 5.x.<br><br> 
+To know more about these ldap servers visit:<br>
+&nbsp;&nbsp;OpenLDAP - <a href="http://www.openldap.org">http://www.openldap.org</a><br>
+&nbsp;&nbsp;iPlanet Directory Server 5.x - <a href="http://docs.sun.com/db/coll/S1_ipDirectoryServer_51">http://docs.sun.com/db/coll/S1_ipDirectoryServer_51</a>  
+</p>
+<h3>Ldap adopted schema - Jsdsi Schema</h3>
+Attributes:<br>
+&nbsp;&nbsp;'cn': unique common name<br>
+&nbsp;&nbsp;'issuer': issuer key hash<br>
+&nbsp;&nbsp;'subject': subject key hash<br>
+&nbsp;&nbsp;'canonicalSexp': certificate in transport format<br>
+&nbsp;&nbsp;'issuerName': issuer name<br>
+&nbsp;&nbsp;'subjectName': subject name<br>
+&nbsp;&nbsp;'notAfter': not after date<br><br>
+ObjectClass:<br>
+&nbsp;&nbsp;'sdsiCertificate': spki based certificate
+<h3>Installing ldap schema</h3>
+Jsdsi schema installation for OpenLDAP and iPlanet Directory Server 5.x.
+<h4>OpenLDAP instructions</h4>
+OpenLDAP schemas MUST not be modified. Schemas for each one of the ldap servers can be found in jsdsi doc directory.<br>
+For OpenLDAP should be used "jsdsi.schema". Installation steps for jsdsi.schema:<br><br>
+1. Copy "jsdsi.schema" file to OpenLDAP schema directory - /usr/local/etc/openldap/schema/</br>
+2. Edit "slapd.conf" file. This file can be found on /usr/local/etc/openldap/<br>
+3. Include "jsdsi.schema" at the end of the "slapd.conf" included schemas such as in the "slapd.conf" sample below. 
+<blockquote>
+<font size="-1">
+#######################################################################
+# ldbm database definitions
+#######################################################################
+# Default schemas
+include         /usr/local/etc/openldap/schema/java.schema<br>
+include         /usr/local/etc/openldap/schema/cosine.schema<br>
+include         /usr/local/etc/openldap/schema/inetorgperson.schema<br>
+include         /usr/local/etc/openldap/schema/misc.schema<br>
+include         /usr/local/etc/openldap/schema/nis.schema<br>
+include         /usr/local/etc/openldap/schema/openldap.schema<br>
+# Local schema
+include         /usr/local/etc/openldap/schema/local.schema<br>
+include         /usr/local/etc/openldap/schema/jsdsi.schema<br><br>
+database        bdb<br><br>
+suffix          "o=OfficeLDA,c=PT"<br><br>
+rootdn          "cn=Manager,o=OfficeLDA,c=PT"<br><br>
+rootpw          {MD5}c2bRmn3qUN6AmQXK4Pg==<br><br>
+schemacheck     on
+</font>
+</blockquote>
+4. Save.<br>
+5. Restart OpenLDAP server.<br><br>
+You should now be able to use OpenLDAP as an alternative CertStore for spki based certificates.   
+<h4>iPlanet Directory Server 5.x instructions</h4>
+For iPlanet Directory Server 5.x a very few steps must be followed. Should be used "jsdsi.ldif" file.<br>
+Installation steps for "jsdsi.ldif":<br><br>
+1. Copy "jsdsi.ldif" to the local disk - C:\Program Files\iPlanet\Servers\shared\bin\.<br>
+2. Now run the following <i>ldapmodify</i> command:<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;ldapmodify -h {host} -p {port} -D "cn=Directory Manager" -w {password} -a -f jsdsi.ldif<br><br>
+Ldap commands are located in C:\Program Files\iPlanet\Servers\shared\bin\<br>
+3. Restart iPlanet Directory Server 5.x server.<br><br>
+You should now be able to use iPlanet Directory Server 5.x as an alternative CertStore for spki based certificates.<br><br>
+An ldap directory structure must be created to store spki based certificates. See ldap servers page to learn how to do this.  
+</body>
+</html>

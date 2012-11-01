@@ -1,0 +1,54 @@
+#
+#		Jsdsi Schema
+#
+# NOTE: The numeric OID's are not registered.
+
+# Attribute issuer * OctetString
+attributetype ( 1.3.6.1.3.1000.4.1
+	NAME 'issuer'
+	EQUALITY octetStringMatch
+	SYNTAX 1.3.6.1.4.1.1466.115.121.1.40
+	SINGLE-VALUE )
+
+# Attribute subject * OctetString
+attributetype ( 1.3.6.1.3.1000.4.2
+	NAME 'subject'
+	EQUALITY octetStringMatch
+	SYNTAX 1.3.6.1.4.1.1466.115.121.1.40
+	SINGLE-VALUE )
+
+# Attribute issuerName * DirectoryString
+attributetype ( 1.3.6.1.3.1000.4.3
+	NAME 'issuerName'
+	EQUALITY caseExactMatch
+	SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
+	SINGLE-VALUE )
+
+# Attribute subjectName * DirectoryString
+attributetype ( 1.3.6.1.3.1000.4.4
+	NAME 'subjectName'
+	EQUALITY caseExactMatch
+	SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
+	SINGLE-VALUE )
+
+# Attribute canonicalSexp * Binary
+attributetype ( 1.3.6.1.3.1000.4.5
+	NAME 'canonicalSexp'
+	SYNTAX 1.3.6.1.4.1.1466.115.121.1.5
+	SINGLE-VALUE )
+
+# Attribute notAfter * DirectoryString
+attributetype ( 1.3.6.1.3.1000.4.6
+	NAME 'notAfter'
+	EQUALITY caseExactMatch
+	SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
+	SINGLE-VALUE )
+
+# ObjectClass sdsiCertificate * Structural
+objectclass ( 1.3.6.1.3.1000.6.1
+	NAME 'sdsiCertificate'
+	SUP top
+	STRUCTURAL
+	MUST ( cn $ issuer $ subject
+		$ canonicalSexp $ notAfter)
+	MAY ( issuerName $ subjectName ) )

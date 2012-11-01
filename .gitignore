@@ -2,7 +2,6 @@ CVS
 .cvsignore
 .settings
 javadoc
-jsdsi
 *.jar
 *.zip
 maven.log

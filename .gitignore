@@ -5,8 +5,6 @@ javadoc
 jsdsi
 *.jar
 *.zip
-.project
-.classpath
 maven.log
 velocity.log
 target

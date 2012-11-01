@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<document>
+  <properties>
+    <title>Changes</title>
+    <author email="sradford@bladesystems.co.uk">Sean Radford</author>
+  </properties>
+  <body>
+    <release version="0.5.2" date="CVS" description="Consider API as non stable">
+      <action dev="sradford" type="update">jsdsi.AuthCert now implements java.io.Serializable and created a SerializationTest.</action>
+    </release>
+    <release version="0.5.1" date="2004-11-17" description="Consider API as non stable">
+      <action dev="sradford" type="update"> Modified jsdsi.util.KeyPairFactory to make use of the new jsdsi.util.RSAKeyPairGeneratorSpi class. </action>
+      <action dev="sradford" type="add"> jsdsi.util.RSAKeyPairGeneratorSpi and jsdsi.util.RSAKeyGenParameterSpec for JDK style creation of JSDSI compatible RSA Key Pairs. </action>
+      <action dev="sradford" type="add"> jsdsi.util classes for enumeration handling of Algorythm names and conversion of between JDK and SPKI format. All work with algorythm names (Hash and 
+        Signature) should now use these classes. </action>
+      <action dev="sradford" type="fix"> Fixed threading issue with parsing of Sexpression datas (validities). </action>
+      <action dev="sradford" type="update"> Added functionality to Hash and Signature for data to come from an InputStream. </action>
+      <action dev="sradford" type="fix"> Fixed problem of byte[] equality failing in jsdsi.Util. </action>
+      <action dev="sradford" type="add"> New static utility class (jsdsi.util.DateUtil) for generating zero millisecond java.util.Dates. </action>
+      <action dev="sradford" type="update"> Certs now include &lt;display-hint&gt; in their SExpressions. </action>
+      <action dev="sajma" type="update"> jsdsi.Proof is now a jsdi.Obj, and consequently writtable as an SExpression. </action>
+      <action dev="sradford" type="update"> jsdsi.Principal now declares getURIs() </action>
+      <action dev="sradford" type="add"> New base class for JSDSI Exceptions: jsdsi.JsdsiRuntimeException </action>
+      <action dev="sradford" type="update"> Declared fields of sub-classes of jsdsi.Obj transient. </action>
+    </release>
+    <release version="0.5" date="2004-03-22" description="Interim release">
+      <action dev="lpmbv" type="update"> canonicalSexp(sdsi certificate) is now stored on a transport format. Changed some comments on jsdsi ldap package. </action>
+      <action dev="lpmbv" type="fix"> LDAPTest control for deleteAllCertificates. </action>
+      <action dev="lpmbv" type="add"> Added LDAPSearchExceptions to control empty searchs results, save time and prevent threads deadlocks. </action>
+      <action dev="sradford" type="update"> jsdsi.SetTag now allows empty and singleton elements for backwards compatibility, but will be illegal in a future release. </action>
+      <action dev="sradford" type="update"> jsdsi.Obj now implements java.io.Serializable. </action>
+      <action dev="sradford" type="add"> Added convenience methods for retrieving transport S-expressions on jsdsi.Obj. </action>
+      <action dev="lpmbv" type="update"> Updated jsdsi.ldap.LDAPAttributes, jsdsi.ldap.LDAPParameters and jsdsi.ldap.LDAPOperations. </action>
+      <action dev="lpmbv" type="add"> Added jsdsi.ldap.LDAPOp. </action>
+      <action dev="sajma" type="add"> Added Luis's jsdsi.ldap package. </action>
+      <action dev="sajma" type="update"> Moved jsdsi.Loader to jsdsi.util.Loader. </action>
+      <action dev="sajma" type="add"> Added jsdsi.IssuerCertSelector. </action>
+      <action dev="sradford" type="update"> Deprecated methods within PublicKey and RSAPublicKey that use URL's and replaced with equivalent URI methods. </action>
+      <action dev="sradford" type="add"> New utility class for generating KeyPairs (jsdsi.util.KeyPairFactory). </action>
+      <action dev="sradford" type="fix"> SetTag now internally stores its Tag elements as a java.util.List to prevent re-ordering when parsing from Sexpressions (was causing Certificate's to become 
+        invalid due to diferrent hashes). </action>
+      <action dev="sradford" type="update"> Improved intersection with SetTag. </action>
+      <action dev="sradford" type="fix"> Correct parsing of public-key Sexpressions with uri's. </action>
+      <action dev="sradford" type="add"> Added jsdsi.ReversePrefixTag that matches strings that prefix its own string value, i.e. (tag (* reverse-prefix /my/private)) implies (tag /my) but not (tag 
+        /my/private/file). </action>
+    </release>
+  </body>
+</document>

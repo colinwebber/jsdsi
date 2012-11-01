@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<project xmlns:j="jelly:core" xmlns:ant="jelly:ant">
+
+<preGoal name="xdoc:jelly-transform">
+	<attainGoal name="faq"/>
+</preGoal>
+
+  <!-- Utility goal for calculating the Serial Version of the java.io.Serializable classes -->
+  <goal name="serialver">
+    <j:set var="classes" value="jsdsi.Acl jsdsi.AclEntry jsdsi.AuthCert jsdsi.Cert jsdsi.Certificate jsdsi.CertPath jsdsi.ExprTag jsdsi.Hash jsdsi.HashOp  jsdsi.ldap.LDAPSearchException jsdsi.Name jsdsi.NameCert jsdsi.Obj jsdsi.ObjectHash jsdsi.OneTime jsdsi.OnlineTest jsdsi.Op jsdsi.PrefixTag jsdsi.Principal jsdsi.Proof jsdsi.Proof.IncompatibleException jsdsi.Provider jsdsi.PublicKey jsdsi.PublicKeyHash jsdsi.RangeTag jsdsi.Revalidation jsdsi.ReversePrefixTag jsdsi.Revocation jsdsi.RSAPublicKey jsdsi.Sequence jsdsi.SetTag jsdsi.sexp.Sexp jsdsi.sexp.SexpException jsdsi.sexp.SexpList"/>
+    <exec dir="." executable="serialver" output="serialver.txt">
+      <arg line="-classpath target/classes ${classes}"/>
+    </exec>
+  </goal>
+
+</project>

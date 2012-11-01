@@ -1,0 +1,15 @@
+Package "jsdsi":
+A Java Implementation of Tools for SPKI/SDSI Certificate Management
+
+Originally written by Alexander Morcos; current author Sameer Ajmani
+<ajmani@lcs.mit.edu>.
+
+Information on how to build and use this distribution is available at:
+http://www.pmg.lcs.mit.edu/~ajmani/sdsi/
+
+Information on SPKI/SDSI is available at:
+http://world.std.com/~cme/html/spki.html
+http://theory.lcs.mit.edu/~cis/sdsi.html
+
+This distribution implements SPKI structure doc #6:
+http://world.std.com/~cme/spki.txt

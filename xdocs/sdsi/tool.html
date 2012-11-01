@@ -1,0 +1,263 @@
+<html>
+<head>
+<title>SDSI Certificate Utility</title>
+</head>
+
+<base href="http://jsdsi.sourceforge.net/">
+
+<body bgcolor="ffffff">
+
+<h3>Disclaimer</h3>
+
+This utility is intended as a learning tool to understand how SDSI works and
+aid in creating and using SDSI objects.  It does not treat these objects
+securely; for example, it stores private keys in the clear on disk and does
+not scrub private key data from memory.  Therefore, this utility should not
+be used as part of secure applications.
+
+<h3>Running the SDSI Certificate Utility</h3>
+
+<p>Download the required Java packages as described <a href=".">here</a>.
+
+<p>On UNIX, run the utility with:
+
+<p><code>java -cp /path/sdsi.jar:/path/cryptix32.jar
+sdsi.control.SDSIMainFrame</code>
+
+<p> On Windows, substitute ';' for ':' and '\' for '/'.  Run from the
+command prompt, or use Start->Run.
+
+<h3>Using the SDSI Certificate Utility</h3>
+
+This utility lets you create, view, save, and load various SDSI objects.
+These objects include public keys, certificates, sequences of objects,
+hashes of objects, and others.  Read about <a
+href="http://theory.lcs.mit.edu/~cis/sdsi.html">SDSI</a> to learn more.
+
+<h3>Layout</h3>
+
+The utility has these major components:
+
+<dl>
+<dt>Menu Bar</dt> <dd>The menu lets you load and save files containing SDSI
+objects (public keys, certificates, etc), change your view of the currently
+loaded objects, manipulate objects, and create certain objects.</dd>
+
+<dt>SDSI Object</dt> <dd>This window (the large one on the left)
+displays the currently selected SDSI object in <a
+href="http://theory.lcs.mit.edu/~rivest/sexp.html">S-expression</a>
+format.</dd>
+
+<dt>Current Objects</dt> <dd>This list (on the upper right) shows the set of
+currently loaded SDSI objects, encoded as follows:
+<dl>
+<dt>Public keys</dt><dd>[Key K-xxx], where xxx is part of the key's hash
+value.</dd>
+
+<dt>Auth certs</dt><dd>[{*} K-xxx tag{+} -> sub], where K-xxx is the
+issuer's public key, tag is the authorization tag, and sub is the subject.
+If '*' appears, then the certificate is signed.  If '+' appears, then the
+authorization may be propagated.</dd>
+
+<dt>Name certs</dt><dd>[{*} K-xxx's name => sub], where K-xxx is the issuer's
+public key, name is the name being defined, and sub is the subject.  If '*'
+appears, then the certificate is signed.</dd>
+
+<dt>Names</dt><dd>[K-xxx's name1's name2's ... nameN], where K-xxx is the
+issuer's public key and nameI are the name components.</dd>
+
+<dt>Signatures</dt><dd>[Sig K-xxx obj], where K-xxx is the signer's public
+key and obj is the signed object.</dd>
+
+<dt>Hashes</dt><dd>[Hash algo obj], where algo is the hash algorithm and obj
+is the hashed object.</dd>
+
+<dt>Sequences</dt><dd>[Seq {K|D|A|S;|,}*], where "K" refers to a public key,
+"D" to a name cert (def), "A" to an auth cert, "S;" to a signature, and ","
+to a hash operation.</dd>
+
+<dt>Threshold Subjects</dt><dd>[Thresh(k/n) {K|N|H|T}^n], where k is the
+threshold, n is the number of subjects, "K" refers to a public key, "N" to a
+name, "H" to a hash, and "T" to a threshold subject.</dd>
+</dl>
+</dd>
+
+<dt>Tabbed Panels</dt> <dd>These panels (on the lower right) allow you to
+create various SDSI objects.</dd>
+
+<dt>Status Bar</dt> <dd>This bar (second from the bottom) displays status
+messages.</dd>
+
+<dt>Identity Bar</dt> <dd>This bar (at the bottom) displays your current
+"identity".  Your identity is the principal you are currently acting as,
+e.g., when you issue certificates.  The bar displays an abbreviation for the
+public key you are using.</dd>
+</dl>
+
+<h3>Getting Started</h3>
+
+This section will walk you through creating various SDSI objects.
+
+<h4>Loading an Identity</h4>
+
+The most important object type in SDSI is a certificate, or cert, and is
+basically a digitally-signed statement.  Of course, statements must be made
+by some principal (i.e., person or other active entity). This utility calls
+the currently active principal the "identity".  Any new certificates you
+create will be issued by the current identity.
+
+<p>In SDSI, a principal is a public key.  Thus, the currently loaded
+identity is displayed as an abbreviation for that public key.  Each public
+key is paired with a private key, so the currently loaded identity actually
+also has a private key loaded in memory.  This private key is used to sign
+new certificates.
+
+<p>To load an identity, you must first have a public and private key pair.
+To create a new key pair, select "Key Pair!" from the "Create" menu.  Key
+creation takes a few seconds, so be patient.  You will be prompted for
+filenames for the public and private keys.  You should choose these
+filenames so that they're easy to pair together, e.g. "alice.pub" for
+Alice's public key and "alice.prv" for Alice's private key.  Here, "Alice"
+is an imaginary person who is the owner of this key pair.
+
+<p>Now that you have a key pair, you can load it as the current identity.
+Select the "Identity" tab and select the public and private key files of the
+identity you want to load.  Finally, click "Load Identity".  If all goes
+well, the new identity should appear in the Identity Bar.
+
+<h4>Creating Certificates</h4>
+
+Certificates can be one of two kinds: name cert or auth cert.  A name cert
+binds a human-readable name to a principal.  For example, Alice could bind
+the name "Robert" to Bob.  Multiple name certs for the same name define
+groups.  For example, Alice could issue two certs for the name "friends",
+one bound to Carol and the other to Dave. Name certs can also bind names to
+other names.  For example, Alice could bind "friends" to "Robert".  Since
+Alice has also defined "Robert" as Bob, Alice's definition of "friends" now
+includes Bob.
+
+<p>Name certs are actually more general than this.  Name certs can bind
+names to names defined by other principals.  For example, Alice could bind
+"friends" to "Robert friends".  This means that her group called "friends"
+also includes the group that Bob calls friends.  Finally, name certs can be
+bound to arbitrary objects identified by their hash value.
+
+<p>To create a name cert, click on the "Certs" tab and the "Create Def"
+sub-tab.  Type the name to define (e.g., "Robert") in the upper text field.
+In the lower area, select the subject of the cert.  This may be another
+principal (a public key), a name, or an object hash.  To select a subject,
+double-click on it in the object list.  If you're binding a name to another
+name defined by the same principal (e.g., binding Alice's "friends" to
+Alice's "Robert"), you can change "Double-Click" to "Type a Name" and just
+type the new name in.
+
+<p>To create subjects like names defined by other principals and object
+hashes, use the "Name" and "Hash" tabs, respectively.  A name is simply a
+principal and a sequence of strings separated by spaces.  For example, set
+issuer to Alice's public key and set names to "Robert friends" to create the
+name "Alice's Robert's friends".  The "Hash" tab lets you create the hash
+value of any SDSI object selected from the object list or a file on disk.
+To turn a hash into an "object-hash", select the hash and then select
+"Object Hash!" from the "Create" menu.
+
+<p>Certificates can also include a validity period: a time during which they
+are valid, outside of which they are not.  A certificate with no validity
+period is always valid. To specify a validity period, enter a begin
+timestamp ("Not Before"), an end timestamp ("Not After"), or both.  The
+format of the timestamp is YYYY-MM-DD_hh:mm:ss, where YYYY is the four-digit
+year, MM is the month (1 to 12), DD is the day, hh is the hour (0 to 23), mm
+is the minute (0 to 59), and ss is the second (0 to 59).
+
+<p>Auth certs are similar to name certs, except instead of naming a group of
+principals, they convey a permission or right to those principals (e.g., the
+right to read a particular file).  The permissions are called "tags" and
+their format is defined in the SPKI/SDSI standard.  In addition, auth certs
+support the ability to delegate a permission to the subject principals using
+the "propagate" flag.  For example, Alice could create an auth cert with the
+tag "read", the subject "Robert", and the propagate flag set.  Alice has
+also defined the name "Robert" to mean Bob, so this cert means that Alice
+allows Bob to read (e.g., one of her files).  Bob could create an auth cert
+with the tag "read", the subject Carol's public key, and the propagate flag
+off.  This allows Carol to read Alice's file, but Carol cannot delegate this
+right to anyone else.
+
+<p>Auth certs also support "threshold subjects", which let you delegate a
+permission to a joint set of principals.  For example, Alice might allow
+someone to read her files if her parents, her friends, and her siblings all
+say that that person can read.  To create such a subject, click on the
+"Threshold" tab and list the subjects that must be consulted.  The
+"threshold" number says how many of these subjects must agree for the
+permission to be granted.  For this example, the threshold is 3, since all
+three parties must agree.  A threshold of 2 would mean any two of the three
+parties could grant the permission.
+
+<h4>Signatures, Sequences, and Proofs</h4>
+
+<p>Certificates alone don't mean anything unless they're signed by their
+issuer.  When you create a certificate, you are asked whether you'd like to
+sign it.  If you say no, the certificate is invalid.  However, you can
+choose to sign the certificate (or any other object) later by selecting the
+certificate and selecting "Sign" from the "Object" menu.
+
+<p>A SDSI certificate along with its signature makes a statement, such as
+"Alice says 'friends' includes Robert" or "Alice says 'Robert' means Bob".
+To keep certificate-signature pairs together, SDSI provides the "sequence"
+data struture.  You can create sequences of certificates and signatures by
+selecting the "Sequence" tab and using the buttons to add and remove objects
+from a sequence.
+
+<p>Taken together, a sequence of certificate-signature pairs also makes a
+statement.  For example, a sequence of the above two certificates (with
+their signatures) means "Alice says 'friends' includes Bob".  Auth certs can
+be connected in a similar fashion: the sequence "Alice says Bob can read
+(with propagate)" + "Bob says Carol can read" means "Alice says Carol can
+read".  In fact, auth certs and name certs can be mixed in the same
+sequence: "Alice says Robert can read (with propagate)" + "Alice says
+'Robert' means Bob" + "Bob says Carol can read" means "Alice says Carol can
+read".
+
+<p>We call sequences that make statements "proofs", since they prove that a
+statement holds.  Creating proofs can be hard for people to do manually.
+For this reason, the utility provides two automated ways to create proofs.
+
+<p>The first proof technique is called "closure".  Closure essentially tries
+to create all proof sequences possible from the set of loaded certificates
+and signatures (acutally, it only creates those sequences derived from the
+"name-reduction" closure, as defined by Clarke et al).  To run the closure
+algorithm, select "Closure!" from the "Create" menu .  Closure creates new,
+unsigned certificates in the objects list (note that signed certificates
+start with a "*", while unsigned ones do not).  To see the sequence of
+signed certificates that proves an unsigned one, select the unsigned
+certificate then select "Proof!" from the "Create" menu.  This will add the
+proof sequence to your object list and select it.
+
+<p>The second proof technique is accessible from the "Prove" tab.  This
+technique lets you to specify what you want to prove, much like how you
+might define a name or auth cert.  For example, you might select Alice's
+public key as the issuing key, "Robert" as the name, and Bob's public key as
+the target subject.  Click the "Prove" button to see whether the prover can
+find a proof.  If it can, the proof sequence will be added to the object
+list and selected.
+
+<p>Finally, the utility can automatically verify whether a proof sequence
+actually proves an assertion (because it is possible that a prover might
+make a mistake).  Verification is important for applications like access
+control.  Suppose Alice only lets her "friends" read her files.  Now suppose
+Mallory attempts to access Alice's files.  Alice's access controller
+requires that Mallory present a proof that she is in Alice's group of
+"friends".  Here, Mallory is the prover, and Alice's access controller is
+the verifier.  Thus, Alice must trust her verifier, but she does not need to
+trust Mallory or Mallory's prover.
+
+<p>To verify a proof sequence, select the "Verify" tab.  Specify the
+assertion to verify (as with the "Prove" tab) and select the sequence that
+you believe proves that assertion.  Click the "Verify" button to check the
+proof against the assertion.
+
+<hr>
+<A href="http://sourceforge.net"><IMG
+src="http://sourceforge.net/sflogo.php?group_id=74580&amp;type=7"
+width="210" height="62" border="0" alt="SourceForge.net Logo"></A>
+
+</body>
+</html>

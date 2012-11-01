@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<document>
+  <properties>
+    <title>Install</title>
+  </properties>
+	<body>
+		<section name="How to Install JSDSI">
+			<ol>
+				<li>Download and install a Java Runtime Environment or Java Development Kit. [<a href="http://java.sun.com">Sun</a>]</li>
+				<li><a href="download.html">Download</a> or <a href="build.html">build</a> the JSDSI jar file.</li>
+				<li>Place JSDSI on your classpath...</li>
+			</ol>
+		</section>
+	</body>
+</document>

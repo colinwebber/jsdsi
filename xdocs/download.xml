@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<document>
+  <properties>
+    <title>Download</title>
+  </properties>
+	<body>
+		<section name="Official Releases">
+			<p>You can download the official releases from our <a href="https://sourceforge.net/project/showfiles.php?group_id=74580">sourceforge</a> download page.</p>
+		</section>
+		<section name="Snapshot Releases">
+			<p>If you want the cutting edge, then download a snapshot jar from <a href="http://jsdsi.sourceforge.net/maven/jsdsi/jars/">here</a> (this is a Maven format repository for convenient use with your own projects). [ <a href="http://jsdsi.sourceforge.net/maven/jsdsi/jars/jsdsi-SNAPSHOT.jar">Latest snapshot</a> ]</p>
+		</section>
+	</body>
+</document>

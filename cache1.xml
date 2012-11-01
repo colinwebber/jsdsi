@@ -1,0 +1,1335 @@
+<cert>
+  <issuer>
+    <public-key>
+      <rsa-pkcs1-md5>
+        <e>
+          #010001#
+        </e>
+        <n>
+          |AKd6zpHoNSq53rFFZ6XZV5m+YZKr1Ym9fUMuE8yHMOZx9AsrWqkZyMxZ9Cn5mI
+          PaTLqYEakoJ7lir25a/Nq1IpvFC8mlalpI2LINDRnIt3HbmiFEj97Eaqk2ffhw
+          XotFHIbPGyrgrMobOtWIpG56Ru5AK230lG68+ZyntCqB53v5|
+        </n>
+      </rsa-pkcs1-md5>
+    </public-key>
+  </issuer>
+  <subject>
+    <k-of-n>
+      "4"
+      "5"
+      <public-key>
+        <rsa-pkcs1-md5>
+          <e>
+            #010001#
+          </e>
+          <n>
+            |AIYuLv8MuELmgDUVRGBlsM08hbPEgX5JsNP3tCnGTCtkgHyMAN3CP/r5PLeW
+            q2AIN38KKZJpqi2X5VS2ymF9bAZszL5isxhC29jmAqn1aBMdJWpFhBt1dc6c
+            kweGW/eQaaMYmYm2hR0vhqCLRguVw1x7gMy4m3aDa6IcQEZdXG4R|
+          </n>
+        </rsa-pkcs1-md5>
+      </public-key>
+      <public-key>
+        <rsa-pkcs1-md5>
+          <e>
+            #010001#
+          </e>
+          <n>
+            |AKd6zpHoNSq53rFFZ6XZV5m+YZKr1Ym9fUMuE8yHMOZx9AsrWqkZyMxZ9Cn5
+            mIPaTLqYEakoJ7lir25a/Nq1IpvFC8mlalpI2LINDRnIt3HbmiFEj97Eaqk2
+            ffhwXotFHIbPGyrgrMobOtWIpG56Ru5AK230lG68+ZyntCqB53v5|
+          </n>
+        </rsa-pkcs1-md5>
+      </public-key>
+      <public-key>
+        <rsa-pkcs1-md5>
+          <e>
+            #010001#
+          </e>
+          <n>
+            |AK0aiccf7Yj/Gzx93m6R6suJiPr5o9ZON6dG31wwDyGK2aKoMJUYLxVMWGh5
+            R2Wsc+RO+ylvablNhmO7zGiZ9qNiN+vdTjdxMALx4ULFF1aYNi86QsSgU/x8
+            Xrk2SiHQ9EkHGDJ7Bpng+4LNSjQtm2DuEscHP3mqz8BzGB+jTek/|
+          </n>
+        </rsa-pkcs1-md5>
+      </public-key>
+      <public-key>
+        <rsa-pkcs1-md5>
+          <e>
+            #010001#
+          </e>
+          <n>
+            |AL98HH8H/9WbfiCiK9ZKZoYj5T/735OI73NDAktvARx4mxOPaxl1FXXFNV41
+            vYe+Sx+GoulWW9INWpSHrnIjAhNLsIHcw5BiHGu2b+TQQcCo2LkQH57dCsF2
+            kmOMuZZ0+RLDzmll1h3cU9dbZ3+BvmwGydsRDXtXY2ioEYR895CZ|
+          </n>
+        </rsa-pkcs1-md5>
+      </public-key>
+      <public-key>
+        <rsa-pkcs1-md5>
+          <e>
+            #010001#
+          </e>
+          <n>
+            |ANbQJy7L3s9PDHippZNcLPyh58WEWxXY30rgg4Y5cs0vnpx6LEgaK+c+VC+P
+            St48cY7pZdSGXa+fZp162cbqsLM0nBSAMkJ1VCYP/3v91vuS9hWY43iPy1PV
+            57pcOiibValFpTUmO/BIeKR9do41nW9hGX8fJv8Y3enZ5cLupq11|
+          </n>
+        </rsa-pkcs1-md5>
+      </public-key>
+    </k-of-n>
+  </subject>
+  <propagate/>
+  <tag>
+    actsfor
+  </tag>
+</cert>
+
+<cert>
+  <issuer>
+    <name>
+      <public-key>
+        <rsa-pkcs1-md5>
+          <e>
+            #010001#
+          </e>
+          <n>
+            |AKd6zpHoNSq53rFFZ6XZV5m+YZKr1Ym9fUMuE8yHMOZx9AsrWqkZyMxZ9Cn5
+            mIPaTLqYEakoJ7lir25a/Nq1IpvFC8mlalpI2LINDRnIt3HbmiFEj97Eaqk2
+            ffhwXotFHIbPGyrgrMobOtWIpG56Ru5AK230lG68+ZyntCqB53v5|
+          </n>
+        </rsa-pkcs1-md5>
+      </public-key>
+      CarolJones
+    </name>
+  </issuer>
+  <subject>
+    <public-key>
+      <rsa-pkcs1-md5>
+        <e>
+          #010001#
+        </e>
+        <n>
+          |AK0aiccf7Yj/Gzx93m6R6suJiPr5o9ZON6dG31wwDyGK2aKoMJUYLxVMWGh5R2
+          Wsc+RO+ylvablNhmO7zGiZ9qNiN+vdTjdxMALx4ULFF1aYNi86QsSgU/x8Xrk2
+          SiHQ9EkHGDJ7Bpng+4LNSjQtm2DuEscHP3mqz8BzGB+jTek/|
+        </n>
+      </rsa-pkcs1-md5>
+    </public-key>
+  </subject>
+</cert>
+
+<cert>
+  <issuer>
+    <name>
+      <public-key>
+        <rsa-pkcs1-md5>
+          <e>
+            #010001#
+          </e>
+          <n>
+            |AKd6zpHoNSq53rFFZ6XZV5m+YZKr1Ym9fUMuE8yHMOZx9AsrWqkZyMxZ9Cn5
+            mIPaTLqYEakoJ7lir25a/Nq1IpvFC8mlalpI2LINDRnIt3HbmiFEj97Eaqk2
+            ffhwXotFHIbPGyrgrMobOtWIpG56Ru5AK230lG68+ZyntCqB53v5|
+          </n>
+        </rsa-pkcs1-md5>
+      </public-key>
+      Alice
+    </name>
+  </issuer>
+  <subject>
+    <public-key>
+      <rsa-pkcs1-md5>
+        <e>
+          #010001#
+        </e>
+        <n>
+          |ANbQJy7L3s9PDHippZNcLPyh58WEWxXY30rgg4Y5cs0vnpx6LEgaK+c+VC+PSt
+          48cY7pZdSGXa+fZp162cbqsLM0nBSAMkJ1VCYP/3v91vuS9hWY43iPy1PV57pc
+          OiibValFpTUmO/BIeKR9do41nW9hGX8fJv8Y3enZ5cLupq11|
+        </n>
+      </rsa-pkcs1-md5>
+    </public-key>
+  </subject>
+</cert>
+
+<signature>
+  <hash>
+    md5
+    |Z2K/MkWBO7xKqMjYeRUq1Q==|
+  </hash>
+  <public-key>
+    <rsa-pkcs1-md5>
+      <e>
+        #010001#
+      </e>
+      <n>
+        |ANbQJy7L3s9PDHippZNcLPyh58WEWxXY30rgg4Y5cs0vnpx6LEgaK+c+VC+PSt48
+        cY7pZdSGXa+fZp162cbqsLM0nBSAMkJ1VCYP/3v91vuS9hWY43iPy1PV57pcOiib
+        ValFpTUmO/BIeKR9do41nW9hGX8fJv8Y3enZ5cLupq11|
+      </n>
+    </rsa-pkcs1-md5>
+  </public-key>
+  <rsa-pkcs1-md5>
+    |AJktQOHn65jpJako/azzm5VipHhDusYp9YCDlNqcjuvolD75sRN7z84af48B+luveab+
+    ye3gHb8Mh00LujPYEtXnkC2HwQxHhKaAVZi4Dau82fVPlF4Z29kk0YYxeM7ieDnwOQUz
+    +MQZA8tXvZHFE6N9CWliwNItRXtfHOnTQDqj|
+  </rsa-pkcs1-md5>
+</signature>
+
+<signature>
+  <hash>
+    md5
+    |wzx6plcR2vOAZhiBkL9VLg==|
+  </hash>
+  <public-key>
+    <rsa-pkcs1-md5>
+      <e>
+        #010001#
+      </e>
+      <n>
+        |AKd6zpHoNSq53rFFZ6XZV5m+YZKr1Ym9fUMuE8yHMOZx9AsrWqkZyMxZ9Cn5mIPa
+        TLqYEakoJ7lir25a/Nq1IpvFC8mlalpI2LINDRnIt3HbmiFEj97Eaqk2ffhwXotF
+        HIbPGyrgrMobOtWIpG56Ru5AK230lG68+ZyntCqB53v5|
+      </n>
+    </rsa-pkcs1-md5>
+  </public-key>
+  <rsa-pkcs1-md5>
+    |W5fq859wpjl1FTjX7Lm0OS7eToB9EZTTHwoDZ0ZG0TvenXhhcgklC+0kmyjdDF8HgoB0
+    PIVSMCzFGzRUW66GRijZSqwoV0OlE2CDwLORAjJBwHg1sGe13aLGe9N0uPypWoMgC7lo
+    4Q+lUed0+B604j8pOs6ZKodjKs89+HqMZto=|
+  </rsa-pkcs1-md5>
+</signature>
+
+<signature>
+  <hash>
+    md5
+    |Gd+JU8/Qs6KtVzZygwprBA==|
+  </hash>
+  <public-key>
+    <rsa-pkcs1-md5>
+      <e>
+        #010001#
+      </e>
+      <n>
+        |AKd6zpHoNSq53rFFZ6XZV5m+YZKr1Ym9fUMuE8yHMOZx9AsrWqkZyMxZ9Cn5mIPa
+        TLqYEakoJ7lir25a/Nq1IpvFC8mlalpI2LINDRnIt3HbmiFEj97Eaqk2ffhwXotF
+        HIbPGyrgrMobOtWIpG56Ru5AK230lG68+ZyntCqB53v5|
+      </n>
+    </rsa-pkcs1-md5>
+  </public-key>
+  <rsa-pkcs1-md5>
+    |THiNozfflRg91KjJTYlaXE9cswpZY1kVBiXVH98CJmY2Uy5HhaQUYFJRYoIxJtDaJU0a
+    A471G+3ia+Iv2G/9/hg1d+Zu1iAp61xTDpprwVnMSlcoirNmlraW/8gQmjInVspo9EAT
+    fWsMSAsBEcxiIzkb5RDyRegdWdbTFs0RuQ==|
+  </rsa-pkcs1-md5>
+</signature>
+
+<cert>
+  <issuer>
+    <name>
+      <public-key>
+        <rsa-pkcs1-md5>
+          <e>
+            #010001#
+          </e>
+          <n>
+            |AK0aiccf7Yj/Gzx93m6R6suJiPr5o9ZON6dG31wwDyGK2aKoMJUYLxVMWGh5
+            R2Wsc+RO+ylvablNhmO7zGiZ9qNiN+vdTjdxMALx4ULFF1aYNi86QsSgU/x8
+            Xrk2SiHQ9EkHGDJ7Bpng+4LNSjQtm2DuEscHP3mqz8BzGB+jTek/|
+          </n>
+        </rsa-pkcs1-md5>
+      </public-key>
+      Ted
+    </name>
+  </issuer>
+  <subject>
+    <public-key>
+      <rsa-pkcs1-md5>
+        <e>
+          #010001#
+        </e>
+        <n>
+          |AIYuLv8MuELmgDUVRGBlsM08hbPEgX5JsNP3tCnGTCtkgHyMAN3CP/r5PLeWq2
+          AIN38KKZJpqi2X5VS2ymF9bAZszL5isxhC29jmAqn1aBMdJWpFhBt1dc6ckweG
+          W/eQaaMYmYm2hR0vhqCLRguVw1x7gMy4m3aDa6IcQEZdXG4R|
+        </n>
+      </rsa-pkcs1-md5>
+    </public-key>
+  </subject>
+</cert>
+
+<public-key>
+  <rsa-pkcs1-md5>
+    <e>
+      #010001#
+    </e>
+    <n>
+      |AK0aiccf7Yj/Gzx93m6R6suJiPr5o9ZON6dG31wwDyGK2aKoMJUYLxVMWGh5R2Wsc+
+      RO+ylvablNhmO7zGiZ9qNiN+vdTjdxMALx4ULFF1aYNi86QsSgU/x8Xrk2SiHQ9EkH
+      GDJ7Bpng+4LNSjQtm2DuEscHP3mqz8BzGB+jTek/|
+    </n>
+  </rsa-pkcs1-md5>
+</public-key>
+
+<signature>
+  <hash>
+    md5
+    |JRt7/5Hos3ne8BbaBL14xA==|
+  </hash>
+  <public-key>
+    <rsa-pkcs1-md5>
+      <e>
+        #010001#
+      </e>
+      <n>
+        |AK0aiccf7Yj/Gzx93m6R6suJiPr5o9ZON6dG31wwDyGK2aKoMJUYLxVMWGh5R2Ws
+        c+RO+ylvablNhmO7zGiZ9qNiN+vdTjdxMALx4ULFF1aYNi86QsSgU/x8Xrk2SiHQ
+        9EkHGDJ7Bpng+4LNSjQtm2DuEscHP3mqz8BzGB+jTek/|
+      </n>
+    </rsa-pkcs1-md5>
+  </public-key>
+  <rsa-pkcs1-md5>
+    |epVa35fDIvp1N1dnG0nAhwE3R0SCpkJJtFfqb5qfScIarjAcisCLAH+b2G+Io685RNve
+    qZnzCwpXh1PwzSs6AmHfw4RR0tJHgcq4oFvwBYhG+M4WyeG+jL44GR5Y/i8O9yD5+q3f
+    AYjoKaU+9ponCuVGteVRVCHJVnTPo0Jhew4=|
+  </rsa-pkcs1-md5>
+</signature>
+
+<cert>
+  <issuer>
+    <name>
+      <public-key>
+        <rsa-pkcs1-md5>
+          <e>
+            #010001#
+          </e>
+          <n>
+            |ANbQJy7L3s9PDHippZNcLPyh58WEWxXY30rgg4Y5cs0vnpx6LEgaK+c+VC+P
+            St48cY7pZdSGXa+fZp162cbqsLM0nBSAMkJ1VCYP/3v91vuS9hWY43iPy1PV
+            57pcOiibValFpTUmO/BIeKR9do41nW9hGX8fJv8Y3enZ5cLupq11|
+          </n>
+        </rsa-pkcs1-md5>
+      </public-key>
+      friends
+    </name>
+  </issuer>
+  <subject>
+    <name>
+      Bob
+    </name>
+  </subject>
+</cert>
+
+<signature>
+  <hash>
+    md5
+    |D2ptYfidIlDCwILf/Xo8ng==|
+  </hash>
+  <public-key>
+    <rsa-pkcs1-md5>
+      <e>
+        #010001#
+      </e>
+      <n>
+        |ANbQJy7L3s9PDHippZNcLPyh58WEWxXY30rgg4Y5cs0vnpx6LEgaK+c+VC+PSt48
+        cY7pZdSGXa+fZp162cbqsLM0nBSAMkJ1VCYP/3v91vuS9hWY43iPy1PV57pcOiib
+        ValFpTUmO/BIeKR9do41nW9hGX8fJv8Y3enZ5cLupq11|
+      </n>
+    </rsa-pkcs1-md5>
+  </public-key>
+  <rsa-pkcs1-md5>
+    |V3exxF25Yuek25mBxE4KlcdbFibiYG4ef6RLoC0LZ9j81b6R4H1qZCbqmZNDvObrevYD
+    mLdnVEdUBNBWfsxzyit+ewbW3cYok4Hx97pfuV15ebrA4fLa1B1BIZFaophvE4KESWRb
+    HlJdo4ZAYImH5leQs0IcFdc+ZYLlj5yxYnY=|
+  </rsa-pkcs1-md5>
+</signature>
+
+<cert>
+  <issuer>
+    <public-key>
+      <rsa-pkcs1-md5>
+        <e>
+          #010001#
+        </e>
+        <n>
+          |AK0aiccf7Yj/Gzx93m6R6suJiPr5o9ZON6dG31wwDyGK2aKoMJUYLxVMWGh5R2
+          Wsc+RO+ylvablNhmO7zGiZ9qNiN+vdTjdxMALx4ULFF1aYNi86QsSgU/x8Xrk2
+          SiHQ9EkHGDJ7Bpng+4LNSjQtm2DuEscHP3mqz8BzGB+jTek/|
+        </n>
+      </rsa-pkcs1-md5>
+    </public-key>
+  </issuer>
+  <subject>
+    <k-of-n>
+      "2"
+      "2"
+      <name>
+        <public-key>
+          <rsa-pkcs1-md5>
+            <e>
+              #010001#
+            </e>
+            <n>
+              |AKd6zpHoNSq53rFFZ6XZV5m+YZKr1Ym9fUMuE8yHMOZx9AsrWqkZyMxZ9C
+              n5mIPaTLqYEakoJ7lir25a/Nq1IpvFC8mlalpI2LINDRnIt3HbmiFEj97E
+              aqk2ffhwXotFHIbPGyrgrMobOtWIpG56Ru5AK230lG68+ZyntCqB53v5|
+            </n>
+          </rsa-pkcs1-md5>
+        </public-key>
+        Frank
+      </name>
+      <public-key>
+        <rsa-pkcs1-md5>
+          <e>
+            #010001#
+          </e>
+          <n>
+            |ANbQJy7L3s9PDHippZNcLPyh58WEWxXY30rgg4Y5cs0vnpx6LEgaK+c+VC+P
+            St48cY7pZdSGXa+fZp162cbqsLM0nBSAMkJ1VCYP/3v91vuS9hWY43iPy1PV
+            57pcOiibValFpTUmO/BIeKR9do41nW9hGX8fJv8Y3enZ5cLupq11|
+          </n>
+        </rsa-pkcs1-md5>
+      </public-key>
+    </k-of-n>
+  </subject>
+  <propagate/>
+  <tag>
+    actsfor
+  </tag>
+</cert>
+
+<cert>
+  <issuer>
+    <name>
+      <public-key>
+        <rsa-pkcs1-md5>
+          <e>
+            #010001#
+          </e>
+          <n>
+            |ANbQJy7L3s9PDHippZNcLPyh58WEWxXY30rgg4Y5cs0vnpx6LEgaK+c+VC+P
+            St48cY7pZdSGXa+fZp162cbqsLM0nBSAMkJ1VCYP/3v91vuS9hWY43iPy1PV
+            57pcOiibValFpTUmO/BIeKR9do41nW9hGX8fJv8Y3enZ5cLupq11|
+          </n>
+        </rsa-pkcs1-md5>
+      </public-key>
+      Bob
+    </name>
+  </issuer>
+  <subject>
+    <public-key>
+      <rsa-pkcs1-md5>
+        <e>
+          #010001#
+        </e>
+        <n>
+          |AKd6zpHoNSq53rFFZ6XZV5m+YZKr1Ym9fUMuE8yHMOZx9AsrWqkZyMxZ9Cn5mI
+          PaTLqYEakoJ7lir25a/Nq1IpvFC8mlalpI2LINDRnIt3HbmiFEj97Eaqk2ffhw
+          XotFHIbPGyrgrMobOtWIpG56Ru5AK230lG68+ZyntCqB53v5|
+        </n>
+      </rsa-pkcs1-md5>
+    </public-key>
+  </subject>
+</cert>
+
+<cert>
+  <issuer>
+    <name>
+      <public-key>
+        <rsa-pkcs1-md5>
+          <e>
+            #010001#
+          </e>
+          <n>
+            |ANbQJy7L3s9PDHippZNcLPyh58WEWxXY30rgg4Y5cs0vnpx6LEgaK+c+VC+P
+            St48cY7pZdSGXa+fZp162cbqsLM0nBSAMkJ1VCYP/3v91vuS9hWY43iPy1PV
+            57pcOiibValFpTUmO/BIeKR9do41nW9hGX8fJv8Y3enZ5cLupq11|
+          </n>
+        </rsa-pkcs1-md5>
+      </public-key>
+      Ted
+    </name>
+  </issuer>
+  <subject>
+    <name>
+      <public-key>
+        <rsa-pkcs1-md5>
+          <e>
+            #010001#
+          </e>
+          <n>
+            |ANbQJy7L3s9PDHippZNcLPyh58WEWxXY30rgg4Y5cs0vnpx6LEgaK+c+VC+P
+            St48cY7pZdSGXa+fZp162cbqsLM0nBSAMkJ1VCYP/3v91vuS9hWY43iPy1PV
+            57pcOiibValFpTUmO/BIeKR9do41nW9hGX8fJv8Y3enZ5cLupq11|
+          </n>
+        </rsa-pkcs1-md5>
+      </public-key>
+      Bob
+      CarolJones
+      Ted
+    </name>
+  </subject>
+</cert>
+
+<cert>
+  <issuer>
+    <name>
+      <public-key>
+        <rsa-pkcs1-md5>
+          <e>
+            #010001#
+          </e>
+          <n>
+            |AKd6zpHoNSq53rFFZ6XZV5m+YZKr1Ym9fUMuE8yHMOZx9AsrWqkZyMxZ9Cn5
+            mIPaTLqYEakoJ7lir25a/Nq1IpvFC8mlalpI2LINDRnIt3HbmiFEj97Eaqk2
+            ffhwXotFHIbPGyrgrMobOtWIpG56Ru5AK230lG68+ZyntCqB53v5|
+          </n>
+        </rsa-pkcs1-md5>
+      </public-key>
+      my-friends
+    </name>
+  </issuer>
+  <subject>
+    <name>
+      <public-key>
+        <rsa-pkcs1-md5>
+          <e>
+            #010001#
+          </e>
+          <n>
+            |AKd6zpHoNSq53rFFZ6XZV5m+YZKr1Ym9fUMuE8yHMOZx9AsrWqkZyMxZ9Cn5
+            mIPaTLqYEakoJ7lir25a/Nq1IpvFC8mlalpI2LINDRnIt3HbmiFEj97Eaqk2
+            ffhwXotFHIbPGyrgrMobOtWIpG56Ru5AK230lG68+ZyntCqB53v5|
+          </n>
+        </rsa-pkcs1-md5>
+      </public-key>
+      Alice
+    </name>
+  </subject>
+</cert>
+
+<cert>
+  <issuer>
+    <public-key>
+      <rsa-pkcs1-md5>
+        <e>
+          #010001#
+        </e>
+        <n>
+          |ANbQJy7L3s9PDHippZNcLPyh58WEWxXY30rgg4Y5cs0vnpx6LEgaK+c+VC+PSt
+          48cY7pZdSGXa+fZp162cbqsLM0nBSAMkJ1VCYP/3v91vuS9hWY43iPy1PV57pc
+          OiibValFpTUmO/BIeKR9do41nW9hGX8fJv8Y3enZ5cLupq11|
+        </n>
+      </rsa-pkcs1-md5>
+    </public-key>
+  </issuer>
+  <subject>
+    <name>
+      <public-key>
+        <rsa-pkcs1-md5>
+          <e>
+            #010001#
+          </e>
+          <n>
+            |ANbQJy7L3s9PDHippZNcLPyh58WEWxXY30rgg4Y5cs0vnpx6LEgaK+c+VC+P
+            St48cY7pZdSGXa+fZp162cbqsLM0nBSAMkJ1VCYP/3v91vuS9hWY43iPy1PV
+            57pcOiibValFpTUmO/BIeKR9do41nW9hGX8fJv8Y3enZ5cLupq11|
+          </n>
+        </rsa-pkcs1-md5>
+      </public-key>
+      Bob
+      my-friends
+    </name>
+  </subject>
+  <propagate/>
+  <tag>
+    actsfor
+  </tag>
+  <valid>
+    <not-after>
+      "2000-06-01_00:00:00"
+    </not-after>
+  </valid>
+</cert>
+
+<signature>
+  <hash>
+    md5
+    |XLzEXeS4TKfvx6aimK5WWQ==|
+  </hash>
+  <public-key>
+    <rsa-pkcs1-md5>
+      <e>
+        #010001#
+      </e>
+      <n>
+        |AIYuLv8MuELmgDUVRGBlsM08hbPEgX5JsNP3tCnGTCtkgHyMAN3CP/r5PLeWq2AI
+        N38KKZJpqi2X5VS2ymF9bAZszL5isxhC29jmAqn1aBMdJWpFhBt1dc6ckweGW/eQ
+        aaMYmYm2hR0vhqCLRguVw1x7gMy4m3aDa6IcQEZdXG4R|
+      </n>
+    </rsa-pkcs1-md5>
+  </public-key>
+  <rsa-pkcs1-md5>
+    |Js+jGpuDKb5zRZc4TqPbRYLKS3m+WLjw5AfEwAIhYUNw0ntKeClslCEOkveSCYJtTNZT
+    edeCGpEATSG5vLhOXKpOGrajd4m1A7U07Nfh/85dcCwY5EoGFSrAhMPZmxA55H9F2inH
+    P2tTHNZJ0k4eltMGegdDdNnsmP4BPGVkqyw=|
+  </rsa-pkcs1-md5>
+</signature>
+
+<cert>
+  <issuer>
+    <public-key>
+      <rsa-pkcs1-md5>
+        <e>
+          #010001#
+        </e>
+        <n>
+          |AIYuLv8MuELmgDUVRGBlsM08hbPEgX5JsNP3tCnGTCtkgHyMAN3CP/r5PLeWq2
+          AIN38KKZJpqi2X5VS2ymF9bAZszL5isxhC29jmAqn1aBMdJWpFhBt1dc6ckweG
+          W/eQaaMYmYm2hR0vhqCLRguVw1x7gMy4m3aDa6IcQEZdXG4R|
+        </n>
+      </rsa-pkcs1-md5>
+    </public-key>
+  </issuer>
+  <subject>
+    <public-key>
+      <rsa-pkcs1-md5>
+        <e>
+          #010001#
+        </e>
+        <n>
+          |AK0aiccf7Yj/Gzx93m6R6suJiPr5o9ZON6dG31wwDyGK2aKoMJUYLxVMWGh5R2
+          Wsc+RO+ylvablNhmO7zGiZ9qNiN+vdTjdxMALx4ULFF1aYNi86QsSgU/x8Xrk2
+          SiHQ9EkHGDJ7Bpng+4LNSjQtm2DuEscHP3mqz8BzGB+jTek/|
+        </n>
+      </rsa-pkcs1-md5>
+    </public-key>
+  </subject>
+  <propagate/>
+  <tag>
+    actsfor
+  </tag>
+  <valid>
+    <not-after>
+      "2000-06-01_00:00:00"
+    </not-after>
+  </valid>
+</cert>
+
+<public-key>
+  <rsa-pkcs1-md5>
+    <e>
+      #010001#
+    </e>
+    <n>
+      |AIYuLv8MuELmgDUVRGBlsM08hbPEgX5JsNP3tCnGTCtkgHyMAN3CP/r5PLeWq2AIN3
+      8KKZJpqi2X5VS2ymF9bAZszL5isxhC29jmAqn1aBMdJWpFhBt1dc6ckweGW/eQaaMY
+      mYm2hR0vhqCLRguVw1x7gMy4m3aDa6IcQEZdXG4R|
+    </n>
+  </rsa-pkcs1-md5>
+</public-key>
+
+<signature>
+  <hash>
+    md5
+    |KkdH8vw2OXqAhggOML+5Fw==|
+  </hash>
+  <public-key>
+    <rsa-pkcs1-md5>
+      <e>
+        #010001#
+      </e>
+      <n>
+        |ANbQJy7L3s9PDHippZNcLPyh58WEWxXY30rgg4Y5cs0vnpx6LEgaK+c+VC+PSt48
+        cY7pZdSGXa+fZp162cbqsLM0nBSAMkJ1VCYP/3v91vuS9hWY43iPy1PV57pcOiib
+        ValFpTUmO/BIeKR9do41nW9hGX8fJv8Y3enZ5cLupq11|
+      </n>
+    </rsa-pkcs1-md5>
+  </public-key>
+  <rsa-pkcs1-md5>
+    |Ce87NjaaRRyd+x4EI8bibcoAZtszpY1FAwxgYGSMph2kye7JICWBRKE4HiLKcBc9sHYS
+    2hfXE4RHlwT3tm+0DO/J9IfXXLDUq1vBhD101bvedJYQwUQeiinrMzU3QvRTQZVCWwmL
+    vQVUd4PxNdnwBg4sA90HF3gTr515Y3vIWss=|
+  </rsa-pkcs1-md5>
+</signature>
+
+<cert>
+  <issuer>
+    <name>
+      <public-key>
+        <rsa-pkcs1-md5>
+          <e>
+            #010001#
+          </e>
+          <n>
+            |ANbQJy7L3s9PDHippZNcLPyh58WEWxXY30rgg4Y5cs0vnpx6LEgaK+c+VC+P
+            St48cY7pZdSGXa+fZp162cbqsLM0nBSAMkJ1VCYP/3v91vuS9hWY43iPy1PV
+            57pcOiibValFpTUmO/BIeKR9do41nW9hGX8fJv8Y3enZ5cLupq11|
+          </n>
+        </rsa-pkcs1-md5>
+      </public-key>
+      friends
+    </name>
+  </issuer>
+  <subject>
+    <name>
+      <public-key>
+        <rsa-pkcs1-md5>
+          <e>
+            #010001#
+          </e>
+          <n>
+            |ANbQJy7L3s9PDHippZNcLPyh58WEWxXY30rgg4Y5cs0vnpx6LEgaK+c+VC+P
+            St48cY7pZdSGXa+fZp162cbqsLM0nBSAMkJ1VCYP/3v91vuS9hWY43iPy1PV
+            57pcOiibValFpTUmO/BIeKR9do41nW9hGX8fJv8Y3enZ5cLupq11|
+          </n>
+        </rsa-pkcs1-md5>
+      </public-key>
+      Bob
+      my-friends
+    </name>
+  </subject>
+</cert>
+
+<cert>
+  <issuer>
+    <name>
+      <public-key>
+        <rsa-pkcs1-md5>
+          <e>
+            #010001#
+          </e>
+          <n>
+            |ANbQJy7L3s9PDHippZNcLPyh58WEWxXY30rgg4Y5cs0vnpx6LEgaK+c+VC+P
+            St48cY7pZdSGXa+fZp162cbqsLM0nBSAMkJ1VCYP/3v91vuS9hWY43iPy1PV
+            57pcOiibValFpTUmO/BIeKR9do41nW9hGX8fJv8Y3enZ5cLupq11|
+          </n>
+        </rsa-pkcs1-md5>
+      </public-key>
+      friends
+    </name>
+  </issuer>
+  <subject>
+    <name>
+      <public-key>
+        <rsa-pkcs1-md5>
+          <e>
+            #010001#
+          </e>
+          <n>
+            |ANbQJy7L3s9PDHippZNcLPyh58WEWxXY30rgg4Y5cs0vnpx6LEgaK+c+VC+P
+            St48cY7pZdSGXa+fZp162cbqsLM0nBSAMkJ1VCYP/3v91vuS9hWY43iPy1PV
+            57pcOiibValFpTUmO/BIeKR9do41nW9hGX8fJv8Y3enZ5cLupq11|
+          </n>
+        </rsa-pkcs1-md5>
+      </public-key>
+      Carol
+    </name>
+  </subject>
+</cert>
+
+<public-key>
+  <rsa-pkcs1-md5>
+    <e>
+      #010001#
+    </e>
+    <n>
+      |AL98HH8H/9WbfiCiK9ZKZoYj5T/735OI73NDAktvARx4mxOPaxl1FXXFNV41vYe+Sx
+      +GoulWW9INWpSHrnIjAhNLsIHcw5BiHGu2b+TQQcCo2LkQH57dCsF2kmOMuZZ0+RLD
+      zmll1h3cU9dbZ3+BvmwGydsRDXtXY2ioEYR895CZ|
+    </n>
+  </rsa-pkcs1-md5>
+</public-key>
+
+<signature>
+  <hash>
+    md5
+    |x/WKIhLfWlPvrdi+uHPZIQ==|
+  </hash>
+  <public-key>
+    <rsa-pkcs1-md5>
+      <e>
+        #010001#
+      </e>
+      <n>
+        |ANbQJy7L3s9PDHippZNcLPyh58WEWxXY30rgg4Y5cs0vnpx6LEgaK+c+VC+PSt48
+        cY7pZdSGXa+fZp162cbqsLM0nBSAMkJ1VCYP/3v91vuS9hWY43iPy1PV57pcOiib
+        ValFpTUmO/BIeKR9do41nW9hGX8fJv8Y3enZ5cLupq11|
+      </n>
+    </rsa-pkcs1-md5>
+  </public-key>
+  <rsa-pkcs1-md5>
+    |Un6PH44iwmxXR9y8iM0WZLAnzNPeVgk5DqTxVQT7ZM8Yek37dhi/BC7qOR77FTkxgO5q
+    8ps332owBD23tUyRHS5ozggIu5H1jXRhbwUx3A6s/Q2X4GX9UJgLzBTVFUhUF6JMZoQ6
+    TdPQvFhtBF8/c+W6iFzC5CvlS+nBl2JjBxQ=|
+  </rsa-pkcs1-md5>
+</signature>
+
+<signature>
+  <hash>
+    md5
+    |Z+mye8sxZyAnbyS+4ZGhwA==|
+  </hash>
+  <public-key>
+    <rsa-pkcs1-md5>
+      <e>
+        #010001#
+      </e>
+      <n>
+        |ANbQJy7L3s9PDHippZNcLPyh58WEWxXY30rgg4Y5cs0vnpx6LEgaK+c+VC+PSt48
+        cY7pZdSGXa+fZp162cbqsLM0nBSAMkJ1VCYP/3v91vuS9hWY43iPy1PV57pcOiib
+        ValFpTUmO/BIeKR9do41nW9hGX8fJv8Y3enZ5cLupq11|
+      </n>
+    </rsa-pkcs1-md5>
+  </public-key>
+  <rsa-pkcs1-md5>
+    |AKulrIjzH20ZFXYsNtaZvgGDKoNp3UEcuQhgVMerGSKDkXIhU3fCWK/N0ao49ySIwdJ+
+    oNY61kRHX9iof7NQOyHUZWQ1zgmyOnj5l8/i7GnuC7gcDV0KrP4K2MUdl3Riy0w7YnFn
+    C2eq5AL0d9TBsSkcLl+xFvpSTh70BzGpnJVL|
+  </rsa-pkcs1-md5>
+</signature>
+
+<name>
+  <public-key>
+    <rsa-pkcs1-md5>
+      <e>
+        #010001#
+      </e>
+      <n>
+        |AKd6zpHoNSq53rFFZ6XZV5m+YZKr1Ym9fUMuE8yHMOZx9AsrWqkZyMxZ9Cn5mIPa
+        TLqYEakoJ7lir25a/Nq1IpvFC8mlalpI2LINDRnIt3HbmiFEj97Eaqk2ffhwXotF
+        HIbPGyrgrMobOtWIpG56Ru5AK230lG68+ZyntCqB53v5|
+      </n>
+    </rsa-pkcs1-md5>
+  </public-key>
+  Frank
+</name>
+
+<signature>
+  <hash>
+    md5
+    |LkVYjNMaL2FnmstEr1KYow==|
+  </hash>
+  <public-key>
+    <rsa-pkcs1-md5>
+      <e>
+        #010001#
+      </e>
+      <n>
+        |AKd6zpHoNSq53rFFZ6XZV5m+YZKr1Ym9fUMuE8yHMOZx9AsrWqkZyMxZ9Cn5mIPa
+        TLqYEakoJ7lir25a/Nq1IpvFC8mlalpI2LINDRnIt3HbmiFEj97Eaqk2ffhwXotF
+        HIbPGyrgrMobOtWIpG56Ru5AK230lG68+ZyntCqB53v5|
+      </n>
+    </rsa-pkcs1-md5>
+  </public-key>
+  <rsa-pkcs1-md5>
+    |cYwTJmBahftePkXGzM++XWuE9e2wHk5Bnl2oaN1Vb2d6JqQAe7sYb99mjZoNkKe1DF6y
+    hU+tNYZgH3DUnAvGmJeVKMt+uCR5IwknAxszfBIIIC+pDYZ/JmjfcPy2Ku2nbBkixN7N
+    CIOJH5auqUXmbt1EJWXMj16mdC6xRIdg/84=|
+  </rsa-pkcs1-md5>
+</signature>
+
+<signature>
+  <hash>
+    md5
+    |nEJ522RdTxt2HCMp1QD0dw==|
+  </hash>
+  <public-key>
+    <rsa-pkcs1-md5>
+      <e>
+        #010001#
+      </e>
+      <n>
+        |ANbQJy7L3s9PDHippZNcLPyh58WEWxXY30rgg4Y5cs0vnpx6LEgaK+c+VC+PSt48
+        cY7pZdSGXa+fZp162cbqsLM0nBSAMkJ1VCYP/3v91vuS9hWY43iPy1PV57pcOiib
+        ValFpTUmO/BIeKR9do41nW9hGX8fJv8Y3enZ5cLupq11|
+      </n>
+    </rsa-pkcs1-md5>
+  </public-key>
+  <rsa-pkcs1-md5>
+    |fAIlNKsPE1cgf8VdJ/fe/iODjvqDV+ner4O/KtwZtHLwXFb6xH+Bxed2zQDTyiI6JJMz
+    OUU12qdsjmcnDTrSnA4LdL8txwVwwBrIf8J8gZPHsZi4fSAAvciZrZHEIl8jvQPQ8WIh
+    Ub6opN4+a7QICnNqteiLsaNeh/MeVbSqrCg=|
+  </rsa-pkcs1-md5>
+</signature>
+
+<public-key>
+  <rsa-pkcs1-md5>
+    <e>
+      #010001#
+    </e>
+    <n>
+      |AKd6zpHoNSq53rFFZ6XZV5m+YZKr1Ym9fUMuE8yHMOZx9AsrWqkZyMxZ9Cn5mIPaTL
+      qYEakoJ7lir25a/Nq1IpvFC8mlalpI2LINDRnIt3HbmiFEj97Eaqk2ffhwXotFHIbP
+      GyrgrMobOtWIpG56Ru5AK230lG68+ZyntCqB53v5|
+    </n>
+  </rsa-pkcs1-md5>
+</public-key>
+
+<cert>
+  <issuer>
+    <name>
+      <public-key>
+        <rsa-pkcs1-md5>
+          <e>
+            #010001#
+          </e>
+          <n>
+            |AKd6zpHoNSq53rFFZ6XZV5m+YZKr1Ym9fUMuE8yHMOZx9AsrWqkZyMxZ9Cn5
+            mIPaTLqYEakoJ7lir25a/Nq1IpvFC8mlalpI2LINDRnIt3HbmiFEj97Eaqk2
+            ffhwXotFHIbPGyrgrMobOtWIpG56Ru5AK230lG68+ZyntCqB53v5|
+          </n>
+        </rsa-pkcs1-md5>
+      </public-key>
+      my-friends
+    </name>
+  </issuer>
+  <subject>
+    <name>
+      <public-key>
+        <rsa-pkcs1-md5>
+          <e>
+            #010001#
+          </e>
+          <n>
+            |AKd6zpHoNSq53rFFZ6XZV5m+YZKr1Ym9fUMuE8yHMOZx9AsrWqkZyMxZ9Cn5
+            mIPaTLqYEakoJ7lir25a/Nq1IpvFC8mlalpI2LINDRnIt3HbmiFEj97Eaqk2
+            ffhwXotFHIbPGyrgrMobOtWIpG56Ru5AK230lG68+ZyntCqB53v5|
+          </n>
+        </rsa-pkcs1-md5>
+      </public-key>
+      Frank
+    </name>
+  </subject>
+</cert>
+
+<public-key>
+  <rsa-pkcs1-md5>
+    <e>
+      #010001#
+    </e>
+    <n>
+      |ANbQJy7L3s9PDHippZNcLPyh58WEWxXY30rgg4Y5cs0vnpx6LEgaK+c+VC+PSt48cY
+      7pZdSGXa+fZp162cbqsLM0nBSAMkJ1VCYP/3v91vuS9hWY43iPy1PV57pcOiibValF
+      pTUmO/BIeKR9do41nW9hGX8fJv8Y3enZ5cLupq11|
+    </n>
+  </rsa-pkcs1-md5>
+</public-key>
+
+<signature>
+  <hash>
+    md5
+    |sQxCbxyjVS0ZfbrAM1PIDA==|
+  </hash>
+  <public-key>
+    <rsa-pkcs1-md5>
+      <e>
+        #010001#
+      </e>
+      <n>
+        |AK0aiccf7Yj/Gzx93m6R6suJiPr5o9ZON6dG31wwDyGK2aKoMJUYLxVMWGh5R2Ws
+        c+RO+ylvablNhmO7zGiZ9qNiN+vdTjdxMALx4ULFF1aYNi86QsSgU/x8Xrk2SiHQ
+        9EkHGDJ7Bpng+4LNSjQtm2DuEscHP3mqz8BzGB+jTek/|
+      </n>
+    </rsa-pkcs1-md5>
+  </public-key>
+  <rsa-pkcs1-md5>
+    |RKRvewEdoh5MQ09vgOEs/pEXGWCv2oFvEn9N/ih2C/lcgqtrvcCtKfxSbAUl22eWE8Fx
+    XZkKEk9hYQmKMUqsmRaONTYvA3gaXOHbQ/4me8ll5GraeOHzBz3bvy8hRlcgRX6o4Kvd
+    /JodcYqQqsTDyiSsmoELqN13yZZUPbGmmek=|
+  </rsa-pkcs1-md5>
+</signature>
+
+<cert>
+  <issuer>
+    <name>
+      <public-key>
+        <rsa-pkcs1-md5>
+          <e>
+            #010001#
+          </e>
+          <n>
+            |ANbQJy7L3s9PDHippZNcLPyh58WEWxXY30rgg4Y5cs0vnpx6LEgaK+c+VC+P
+            St48cY7pZdSGXa+fZp162cbqsLM0nBSAMkJ1VCYP/3v91vuS9hWY43iPy1PV
+            57pcOiibValFpTUmO/BIeKR9do41nW9hGX8fJv8Y3enZ5cLupq11|
+          </n>
+        </rsa-pkcs1-md5>
+      </public-key>
+      Carol
+    </name>
+  </issuer>
+  <subject>
+    <name>
+      <public-key>
+        <rsa-pkcs1-md5>
+          <e>
+            #010001#
+          </e>
+          <n>
+            |ANbQJy7L3s9PDHippZNcLPyh58WEWxXY30rgg4Y5cs0vnpx6LEgaK+c+VC+P
+            St48cY7pZdSGXa+fZp162cbqsLM0nBSAMkJ1VCYP/3v91vuS9hWY43iPy1PV
+            57pcOiibValFpTUmO/BIeKR9do41nW9hGX8fJv8Y3enZ5cLupq11|
+          </n>
+        </rsa-pkcs1-md5>
+      </public-key>
+      Bob
+      CarolJones
+    </name>
+  </subject>
+</cert>
+
+<signature>
+  <hash>
+    md5
+    |ho/4GZ8fL3eD2au0VvGO/g==|
+  </hash>
+  <public-key>
+    <rsa-pkcs1-md5>
+      <e>
+        #010001#
+      </e>
+      <n>
+        |ANbQJy7L3s9PDHippZNcLPyh58WEWxXY30rgg4Y5cs0vnpx6LEgaK+c+VC+PSt48
+        cY7pZdSGXa+fZp162cbqsLM0nBSAMkJ1VCYP/3v91vuS9hWY43iPy1PV57pcOiib
+        ValFpTUmO/BIeKR9do41nW9hGX8fJv8Y3enZ5cLupq11|
+      </n>
+    </rsa-pkcs1-md5>
+  </public-key>
+  <rsa-pkcs1-md5>
+    |GJP+/r+56rr/CKgoPVgfNFrq2/6h7sV6d4Mijr33i44kM949kS1ByO62LbJ/XuJRzyP9
+    zosAOSN4C7VRyO731+/0adHSn52AlSEt43plXHt8xQh7xNVCFpgfWXc3omZ5S0kMBCFo
+    VtzVU784cQzU7JIEoIEeCA7VD8AQyJOOMkc=|
+  </rsa-pkcs1-md5>
+</signature>
+
+<signature>
+  <hash>
+    md5
+    |Mqr2bces7sWSCLWUdWzAWg==|
+  </hash>
+  <public-key>
+    <rsa-pkcs1-md5>
+      <e>
+        #010001#
+      </e>
+      <n>
+        |ANbQJy7L3s9PDHippZNcLPyh58WEWxXY30rgg4Y5cs0vnpx6LEgaK+c+VC+PSt48
+        cY7pZdSGXa+fZp162cbqsLM0nBSAMkJ1VCYP/3v91vuS9hWY43iPy1PV57pcOiib
+        ValFpTUmO/BIeKR9do41nW9hGX8fJv8Y3enZ5cLupq11|
+      </n>
+    </rsa-pkcs1-md5>
+  </public-key>
+  <rsa-pkcs1-md5>
+    |Pc94UQImCxkxx64UewAOpn3SEVTlFw5LlIn3DuxM6bdFnNeIqwvbmadeGswT5wC2NAq4
+    FB7x3j+SiSvv9XzkFanB4WPAt8ApEfMuWqJVC03Ag2whrhm8e2T78HOSjQ3F0f06RUVW
+    HyYXcRWNjCOnZxvV2dod+Jb0oqe9iv9SoyU=|
+  </rsa-pkcs1-md5>
+</signature>
+
+<k-of-n>
+  "4"
+  "5"
+  <public-key>
+    <rsa-pkcs1-md5>
+      <e>
+        #010001#
+      </e>
+      <n>
+        |AIYuLv8MuELmgDUVRGBlsM08hbPEgX5JsNP3tCnGTCtkgHyMAN3CP/r5PLeWq2AI
+        N38KKZJpqi2X5VS2ymF9bAZszL5isxhC29jmAqn1aBMdJWpFhBt1dc6ckweGW/eQ
+        aaMYmYm2hR0vhqCLRguVw1x7gMy4m3aDa6IcQEZdXG4R|
+      </n>
+    </rsa-pkcs1-md5>
+  </public-key>
+  <public-key>
+    <rsa-pkcs1-md5>
+      <e>
+        #010001#
+      </e>
+      <n>
+        |AKd6zpHoNSq53rFFZ6XZV5m+YZKr1Ym9fUMuE8yHMOZx9AsrWqkZyMxZ9Cn5mIPa
+        TLqYEakoJ7lir25a/Nq1IpvFC8mlalpI2LINDRnIt3HbmiFEj97Eaqk2ffhwXotF
+        HIbPGyrgrMobOtWIpG56Ru5AK230lG68+ZyntCqB53v5|
+      </n>
+    </rsa-pkcs1-md5>
+  </public-key>
+  <public-key>
+    <rsa-pkcs1-md5>
+      <e>
+        #010001#
+      </e>
+      <n>
+        |AK0aiccf7Yj/Gzx93m6R6suJiPr5o9ZON6dG31wwDyGK2aKoMJUYLxVMWGh5R2Ws
+        c+RO+ylvablNhmO7zGiZ9qNiN+vdTjdxMALx4ULFF1aYNi86QsSgU/x8Xrk2SiHQ
+        9EkHGDJ7Bpng+4LNSjQtm2DuEscHP3mqz8BzGB+jTek/|
+      </n>
+    </rsa-pkcs1-md5>
+  </public-key>
+  <public-key>
+    <rsa-pkcs1-md5>
+      <e>
+        #010001#
+      </e>
+      <n>
+        |AL98HH8H/9WbfiCiK9ZKZoYj5T/735OI73NDAktvARx4mxOPaxl1FXXFNV41vYe+
+        Sx+GoulWW9INWpSHrnIjAhNLsIHcw5BiHGu2b+TQQcCo2LkQH57dCsF2kmOMuZZ0
+        +RLDzmll1h3cU9dbZ3+BvmwGydsRDXtXY2ioEYR895CZ|
+      </n>
+    </rsa-pkcs1-md5>
+  </public-key>
+  <public-key>
+    <rsa-pkcs1-md5>
+      <e>
+        #010001#
+      </e>
+      <n>
+        |ANbQJy7L3s9PDHippZNcLPyh58WEWxXY30rgg4Y5cs0vnpx6LEgaK+c+VC+PSt48
+        cY7pZdSGXa+fZp162cbqsLM0nBSAMkJ1VCYP/3v91vuS9hWY43iPy1PV57pcOiib
+        ValFpTUmO/BIeKR9do41nW9hGX8fJv8Y3enZ5cLupq11|
+      </n>
+    </rsa-pkcs1-md5>
+  </public-key>
+</k-of-n>
+
+<signature>
+  <hash>
+    md5
+    |axM8K32f3vNaI7JQGxXjiA==|
+  </hash>
+  <public-key>
+    <rsa-pkcs1-md5>
+      <e>
+        #010001#
+      </e>
+      <n>
+        |AKd6zpHoNSq53rFFZ6XZV5m+YZKr1Ym9fUMuE8yHMOZx9AsrWqkZyMxZ9Cn5mIPa
+        TLqYEakoJ7lir25a/Nq1IpvFC8mlalpI2LINDRnIt3HbmiFEj97Eaqk2ffhwXotF
+        HIbPGyrgrMobOtWIpG56Ru5AK230lG68+ZyntCqB53v5|
+      </n>
+    </rsa-pkcs1-md5>
+  </public-key>
+  <rsa-pkcs1-md5>
+    |MQN6dfWrHMsZtLXbdE52rQpWRPFxW47LzZUAqbuCvGuZrL0+bkC92ae6ELXz40t5dDCT
+    JuB+Ws0FQo7Ri/TC0kNN/HXT2wCqHRNQKxMqI++dnsnWfCEvWGx2dXhof/MQAbcrDas3
+    yYPYKIontfNqZGOioGJYyuccbWDV6iGnxWs=|
+  </rsa-pkcs1-md5>
+</signature>
+
+<cert>
+  <issuer>
+    <public-key>
+      <rsa-pkcs1-md5>
+        <e>
+          #010001#
+        </e>
+        <n>
+          |AL98HH8H/9WbfiCiK9ZKZoYj5T/735OI73NDAktvARx4mxOPaxl1FXXFNV41vY
+          e+Sx+GoulWW9INWpSHrnIjAhNLsIHcw5BiHGu2b+TQQcCo2LkQH57dCsF2kmOM
+          uZZ0+RLDzmll1h3cU9dbZ3+BvmwGydsRDXtXY2ioEYR895CZ|
+        </n>
+      </rsa-pkcs1-md5>
+    </public-key>
+  </issuer>
+  <subject>
+    <public-key>
+      <rsa-pkcs1-md5>
+        <e>
+          #010001#
+        </e>
+        <n>
+          |AIYuLv8MuELmgDUVRGBlsM08hbPEgX5JsNP3tCnGTCtkgHyMAN3CP/r5PLeWq2
+          AIN38KKZJpqi2X5VS2ymF9bAZszL5isxhC29jmAqn1aBMdJWpFhBt1dc6ckweG
+          W/eQaaMYmYm2hR0vhqCLRguVw1x7gMy4m3aDa6IcQEZdXG4R|
+        </n>
+      </rsa-pkcs1-md5>
+    </public-key>
+  </subject>
+  <tag>
+    actsfor
+  </tag>
+  <valid>
+    <not-before>
+      "2000-02-01_00:00:00"
+    </not-before>
+    <not-after>
+      "2000-12-01_00:00:00"
+    </not-after>
+  </valid>
+</cert>
+
+<signature>
+  <hash>
+    md5
+    |zko57AWDvhcTRU9/MQFa4Q==|
+  </hash>
+  <public-key>
+    <rsa-pkcs1-md5>
+      <e>
+        #010001#
+      </e>
+      <n>
+        |AL98HH8H/9WbfiCiK9ZKZoYj5T/735OI73NDAktvARx4mxOPaxl1FXXFNV41vYe+
+        Sx+GoulWW9INWpSHrnIjAhNLsIHcw5BiHGu2b+TQQcCo2LkQH57dCsF2kmOMuZZ0
+        +RLDzmll1h3cU9dbZ3+BvmwGydsRDXtXY2ioEYR895CZ|
+      </n>
+    </rsa-pkcs1-md5>
+  </public-key>
+  <rsa-pkcs1-md5>
+    |IFdooIhVS1P/kolf/A+TrHfmIp8RVx8n0Lnv9Z3CdLefTkCZF1/G/KnZvRDjXATCP0kC
+    AuVU+5EGM37RhYahWiIdfDcY2vKussGLGsk6QGsWuRvaYLTpEv8yJu6UZJVvhFHFh2Yb
+    6hAK5LaiRlqoGNxgesx3jHeVJjiU1aZdaLE=|
+  </rsa-pkcs1-md5>
+</signature>
+
+<signature>
+  <hash>
+    md5
+    |1Qmeb69w0C1uAGibq5TvCg==|
+  </hash>
+  <public-key>
+    <rsa-pkcs1-md5>
+      <e>
+        #010001#
+      </e>
+      <n>
+        |AKd6zpHoNSq53rFFZ6XZV5m+YZKr1Ym9fUMuE8yHMOZx9AsrWqkZyMxZ9Cn5mIPa
+        TLqYEakoJ7lir25a/Nq1IpvFC8mlalpI2LINDRnIt3HbmiFEj97Eaqk2ffhwXotF
+        HIbPGyrgrMobOtWIpG56Ru5AK230lG68+ZyntCqB53v5|
+      </n>
+    </rsa-pkcs1-md5>
+  </public-key>
+  <rsa-pkcs1-md5>
+    |AJaGwAOWt1ubwA2qRPNqc3vcTxydIA3aIhbn1eRFsDLVy8SwPN1jwUQpz+gTpm7w4P2D
+    /DkKiICK+8Wjsfjq7LfGVRxQVH8+j0FPqjx8PtMwgKMUcaAwsTUHJ07AzO2Ncr8UzjL4
+    MGrXNQxa7yQW3sY06MjdUG+kNCqTacl7dKB4|
+  </rsa-pkcs1-md5>
+</signature>
+
+<cert>
+  <issuer>
+    <name>
+      <public-key>
+        <rsa-pkcs1-md5>
+          <e>
+            #010001#
+          </e>
+          <n>
+            |AKd6zpHoNSq53rFFZ6XZV5m+YZKr1Ym9fUMuE8yHMOZx9AsrWqkZyMxZ9Cn5
+            mIPaTLqYEakoJ7lir25a/Nq1IpvFC8mlalpI2LINDRnIt3HbmiFEj97Eaqk2
+            ffhwXotFHIbPGyrgrMobOtWIpG56Ru5AK230lG68+ZyntCqB53v5|
+          </n>
+        </rsa-pkcs1-md5>
+      </public-key>
+      Frank
+    </name>
+  </issuer>
+  <subject>
+    <public-key>
+      <rsa-pkcs1-md5>
+        <e>
+          #010001#
+        </e>
+        <n>
+          |AL98HH8H/9WbfiCiK9ZKZoYj5T/735OI73NDAktvARx4mxOPaxl1FXXFNV41vY
+          e+Sx+GoulWW9INWpSHrnIjAhNLsIHcw5BiHGu2b+TQQcCo2LkQH57dCsF2kmOM
+          uZZ0+RLDzmll1h3cU9dbZ3+BvmwGydsRDXtXY2ioEYR895CZ|
+        </n>
+      </rsa-pkcs1-md5>
+    </public-key>
+  </subject>
+</cert>
+
+<k-of-n>
+  "2"
+  "2"
+  <name>
+    <public-key>
+      <rsa-pkcs1-md5>
+        <e>
+          #010001#
+        </e>
+        <n>
+          |AKd6zpHoNSq53rFFZ6XZV5m+YZKr1Ym9fUMuE8yHMOZx9AsrWqkZyMxZ9Cn5mI
+          PaTLqYEakoJ7lir25a/Nq1IpvFC8mlalpI2LINDRnIt3HbmiFEj97Eaqk2ffhw
+          XotFHIbPGyrgrMobOtWIpG56Ru5AK230lG68+ZyntCqB53v5|
+        </n>
+      </rsa-pkcs1-md5>
+    </public-key>
+    Frank
+  </name>
+  <public-key>
+    <rsa-pkcs1-md5>
+      <e>
+        #010001#
+      </e>
+      <n>
+        |ANbQJy7L3s9PDHippZNcLPyh58WEWxXY30rgg4Y5cs0vnpx6LEgaK+c+VC+PSt48
+        cY7pZdSGXa+fZp162cbqsLM0nBSAMkJ1VCYP/3v91vuS9hWY43iPy1PV57pcOiib
+        ValFpTUmO/BIeKR9do41nW9hGX8fJv8Y3enZ5cLupq11|
+      </n>
+    </rsa-pkcs1-md5>
+  </public-key>
+</k-of-n>
+
+<cert>
+  <issuer>
+    <name>
+      <public-key>
+        <rsa-pkcs1-md5>
+          <e>
+            #010001#
+          </e>
+          <n>
+            |ANbQJy7L3s9PDHippZNcLPyh58WEWxXY30rgg4Y5cs0vnpx6LEgaK+c+VC+P
+            St48cY7pZdSGXa+fZp162cbqsLM0nBSAMkJ1VCYP/3v91vuS9hWY43iPy1PV
+            57pcOiibValFpTUmO/BIeKR9do41nW9hGX8fJv8Y3enZ5cLupq11|
+          </n>
+        </rsa-pkcs1-md5>
+      </public-key>
+      friends
+    </name>
+  </issuer>
+  <subject>
+    <name>
+      <public-key>
+        <rsa-pkcs1-md5>
+          <e>
+            #010001#
+          </e>
+          <n>
+            |ANbQJy7L3s9PDHippZNcLPyh58WEWxXY30rgg4Y5cs0vnpx6LEgaK+c+VC+P
+            St48cY7pZdSGXa+fZp162cbqsLM0nBSAMkJ1VCYP/3v91vuS9hWY43iPy1PV
+            57pcOiibValFpTUmO/BIeKR9do41nW9hGX8fJv8Y3enZ5cLupq11|
+          </n>
+        </rsa-pkcs1-md5>
+      </public-key>
+      Ted
+    </name>
+  </subject>
+</cert>
+
+<signature>
+  <hash>
+    md5
+    |n6MY2nwwUbEsj9XCad9CSA==|
+  </hash>
+  <public-key>
+    <rsa-pkcs1-md5>
+      <e>
+        #010001#
+      </e>
+      <n>
+        |AKd6zpHoNSq53rFFZ6XZV5m+YZKr1Ym9fUMuE8yHMOZx9AsrWqkZyMxZ9Cn5mIPa
+        TLqYEakoJ7lir25a/Nq1IpvFC8mlalpI2LINDRnIt3HbmiFEj97Eaqk2ffhwXotF
+        HIbPGyrgrMobOtWIpG56Ru5AK230lG68+ZyntCqB53v5|
+      </n>
+    </rsa-pkcs1-md5>
+  </public-key>
+  <rsa-pkcs1-md5>
+    |MK8s9gg7oESWelSKTSE4m36zeaqSy0t5AE3JnirLW2NMz6iU5SJeOJBFV8aebRkaT/3l
+    PBaataFeI4IrHOwKBq8/rtv2ZIZ8nZhNM8Jltg0eTqhlaBnzuGJjaUFgi5XoVOGzNOQF
+    bfYzj6+DVRrh4ONUCvQrh6Pjyl4j4hf/HNI=|
+  </rsa-pkcs1-md5>
+</signature>
+

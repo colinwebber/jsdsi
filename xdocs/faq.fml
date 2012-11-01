@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faqs title="Frequently Asked Questions">
+	<part id="general">
+		<title>General</title>
+		<faq id="whats-jsdsi">
+			<question>What is JSDSI?</question>
+			<answer>
+				<p>JSDSI is a Java implementation of the SPKI/SDSI standard.
+				It began as Alexander Morcos's Master's thesis at MIT;
+				his code lives on in the "sdsi" Java package.  In 2002,
+				Sameer Ajmani reimplemented the Java SDSI API with several
+				improvements and renamed the package "jsdsi."  These improvements
+				include full support for SPKI tags,
+				more efficient parsing and marshalling of SPKI/SDSI objects,
+				better testing using JUnit, XML support, and
+				more powerful certificate chain discovery algorithms.
+				JSDSI is now hosted by Sourceforge and has several
+				developers contributing new features like an improved
+				build process and LDAP support.</p>
+			</answer>
+		</faq>
+		<faq id="whats-spki">
+			<question>What is SPKI/SDSI?</question>
+			<answer>
+				<p><a href="http://www.ietf.org/html.charters/spki-charter.html">SPKI</a>
+				is the Simple Public Key Infrastructure.</p>
+				<p><a href="http://theory.lcs.mit.edu/~cis/sdsi.html">SDSI</a>
+				is the Simple Distributed Security Infrastructure.</p>
+				<p>Carl Ellison maintains an excellent
+				<a href="http://world.std.com/~cme/html/spki.html">page</a>
+				on SPKI/SDSI resources, projects, papers, and code.</p>
+			</answer>
+		</faq>
+	</part>
+	<part id="install">
+		<title>Installation</title>
+		<faq id="how-install">
+			<question>How do I install JSDSI?</question>
+			<answer>
+				<p>Put simply, just <a href="download.html">download</a> the jar and place it on your classpath.</p>
+				<p>For more in-depth instructions read <a href="install.html">this</a>.</p>
+			</answer>
+		</faq>
+		<faq id="how-build">
+			<question>How do I build JSDSI from source?</question>
+			<answer>
+				<p>We suggest that you:</p>
+				<ol>
+					<li>Install Maven.<p/></li>
+					<li>Download or get the JSDSI source from CVS.<p/></li>
+					<li>Build JSDI as with any Maven project.<p/></li>
+				</ol>
+				<p>For more information, read out in-depth <a href="build.html">build instructions</a>.</p>
+			</answer>
+		</faq>
+	</part>
+</faqs>

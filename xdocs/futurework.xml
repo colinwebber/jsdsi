@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<document>
+  <properties>
+    <title>Future Work</title>
+  </properties>
+	<body>
+		<section name="CertSelectors">
+			<p><strong>AuthCertSelector(Principal issuer, Auth a)</strong></p>
+			<p>Should match all AuthCerts that are issued by issuer and whose Auth implies a.  For backwards compatibility, AuthCertSelector(Principal issuer) should be defined as:
+<source><code>
+{
+  this(issuer, new Auth(Tag.NONE_TAG,false));
+}
+</code></source>
+(this will select all Auth certs issued by issuer, as before).</p>
+			<p><strong>IssuerCertSelector(Principal issuer)</strong></p>
+			<p>Should match all Certs issued by issuer.  None of the Prover algorithms requires this, but it might be useful.</p>
+			<p><strong>Impact on CertStores</strong></p>
+			<p>We want anyone implementing a JSDSI CertStore to support as many of these CertSelectors as possible.</p>
+		</section>
+		<section name="Parsing">
+		<p>Parsing should be done using Rats (see below) rather than hand-implemented code.  The latter is just too ugly and hard to maintain. Can unparsing be done automatically, too? [<a href="http://www.cs.nyu.edu/rgrimm/xtc/rats.html">rats</a>]</p>
+		<p>We might want to define the lexical level of JSDSI to be S-expressions, then define a parser that understands the string form of S-expressions and generates the appropriate objects. For example, our input file might have:
+<source><code>
+jsdsi.Hash HASH = LIST("hash" a:STRING v:STRING) {
+  return new jsdsi.Hash(a, v);
+}
+</code></source>
+And our parser generator would know that HASH matches a SexpList whose type is a byte-string with value "hash" and that contains two more byte-strings.</p>
+		</section>
+		<section name="Algorithm-specific objects">
+		<p>We should move the crypto-algorithm-specific stuff out of the SPKI objects. Not sure how to do this, but it's annoying to have to maintain an "RSAPublicKey" class that's separate from the Java version of that class.  But then again, we need a way to translate public keys into SPKI/SDSI format.  Perhaps what we need here is a KeyFactory (Java's class for encoding and decoding keys)?  But we also need a generic way to pass Principals around, and this is usually just a wrapper for a public key.</p>
+		</section>
+		<section name="Algorithm strings">
+		<p>Keeping all the algorithm strings straight is a pain.  Keys, signatures, and other objects each have an algorithm string.  This has to be encoded in a SPKI-friendly way (i.e., certain chars are not allowed).  But this algo name may be different from the one that the crypto provider uses! (cf. rsa-pkcs1-md5 and MD5/RSA/PKCS#1). We could invent some canonical translation, but that seems silly.</p>
+		</section>
+
+	</body>
+</document>

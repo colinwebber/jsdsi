@@ -1,0 +1,11 @@
+CVS
+javadoc
+jsdsi
+*.jar
+*.zip
+.project
+.classpath
+maven.log
+velocity.log
+target
+build.properties

@@ -1,0 +1,223 @@
+<?xml version="1.0"?>
+<project>
+	<pomVersion>3</pomVersion>
+	<name>JSDSI</name>
+	<id>jsdsi</id>
+	<groupId>jsdsi</groupId>
+	<currentVersion>0.5.2</currentVersion>
+	<organization>
+		<name>M.I.T</name>
+		<url>http://web.mit.edu/</url>
+		<logo>/images/mit-logo.gif</logo>
+	</organization>
+	<inceptionYear>2002</inceptionYear>
+	<package>jsdsi</package>
+	<logo>/images/jsdsi-logo.gif</logo>
+
+	<description>
+<![CDATA[
+<p>A Java implementation of the SPKI/SDSI standard.</p>
+
+<p>The <a href="http://sourceforge.net/projects/jsdsi">JSDSI project</a> is hosted by <a href="http://sourceforge.net">SourceForge</a>.</p>
+
+<p>We've reimplemented the Java <a href="#sdsi">SDSI</a> API with the following improvements:
+<ul>
+<li>Support for the Java Security APIs, including a cryptographic provider.</li>
+<li>Improved certificate path discovery algorithms.  A short description of these algorithms is available [ <a href="http://pmg.lcs.mit.edu/~ajmani/papers/sdsi-algos.ps">ps</a> |
+<a href="http://pmg.lcs.mit.edu/~ajmani/papers/sdsi-algos.pdf">pdf</a> ].</li>
+<li>Improved tag intersection capabilities.</li>
+<li>More efficient S-expression parsing (stream-based instead of string-based).</li>
+<li>Alternate wire formats (not just S-expressions). We are in the early stages of adding
+support for SPKI/XML.</li>
+<li>Unit tests using JUnit.</li>
+</ul>
+</p>
+<p>JSDSI is currently under development and should be considered unstable and untested.</p>
+
+<p>JSDSI does not yet include a GUI.</p>
+
+<p>JSDSI requires the following software and packages:
+<ul>
+<li>the JSDSI JAR file
+[<a
+href="http://sourceforge.net/project/showfiles.php?group_id=74580">releases</a>]
+[<a href="maven/jsdsi/jars">snapshots</a>]
+[<a href="maven/jsdsi/jars/jsdsi-SNAPSHOT.jar">latest snapshot</a>]
+</li>
+<li>the Java 1.4 Virtual Machine, <a href="http://java.sun.com/j2se/1.4/">JRE 1.4</a>
+(We've only tested with Sun's)</li>
+<li>the Cryptix cryptographic provider,
+<a href="http://www.cryptix.org/products/cryptix31/index.html"> cryptix32.jar</a>
+[ <a href="/maven/cryptix/jars/cryptix32.jar">cached</a> ]</li>
+<li>Novell's LDAP library,
+<a href="http://developer.novell.com/ndk/ldap-index.htm">ldap.jar</a>
+[ <a href="/maven/novell/jars/ldap.jar">cached</a> ]</li>
+<li>the <a href="http://www.junit.org/index.htm">JUnit</a> unit testing framework</li>
+</ul>
+</p>
+
+<p>You may want to explore the Java <a href="xref/index.html">source code</a>
+and the <a href="apidocs/index.html">javadoc</a>.</p>
+
+<a name="sdsi"><h3>Old Java SDSI (package sdsi)</h3></a>
+
+<p>This distribution is an extension of Alexander Morcos's
+<a href="http://theory.lcs.mit.edu/~cis/sdsi/sdsi2/java/SDSI_Java_Intro.html">original</a>
+Java <a href="http://theory.lcs.mit.edu/~cis/sdsi.html">SDSI</a>
+implementation. You'll need <a href="sdsi/sdsi.jar">sdsi.jar</a> and
+the Cryptix cryptographic provider, <a href="http://www.cryptix.org/products/cryptix31/index.html">
+cryptix32.jar</a>. You'll also need the Java 1.3 Virtual Machine, <a
+href="http://java.sun.com/j2se/1.3/">JRE 1.3</a> (only tested with
+Sun's).</p>
+
+<p>You may also want the <a href="sdsi/sdsi-samples.zip">samples ZIP file</a>,
+the Java <a href="sdsi/sdsi.src.zip">source code</a>, or browse the <a
+href="sdsi/sdsi-javadoc">SDSI javadoc</a>.</p>
+
+<p>This distribution includes the SDSI Certificate Utility, a GUI for
+creating and managing SDSI certificates.  Check out the <a
+href="sdsi/tool.html">instructions</a> on how to run and use the utility.</p>
+
+<hr/>
+<a href="http://sourceforge.net"><img
+src="http://sourceforge.net/sflogo.php?group_id=74580" border="0" alt="SourceForge.net Logo"/></a>
+]]>
+	</description>
+
+	<shortDescription>jSDSI: A Java SPKI/SDSI Implementation</shortDescription>
+
+	<url>http://jsdsi.sourceforge.net/</url>
+
+	<siteAddress>projects.sourceforge.net</siteAddress>
+	<siteDirectory>/home/groups/j/js/jsdsi/htdocs</siteDirectory>
+
+	<distributionSite></distributionSite>
+	<distributionDirectory></distributionDirectory>
+
+	<repository>
+		<connection>
+			scm:cvs:pserver:anonymous@cvs.sourceforge.net:/cvsroot/jsdsi/:jsdsi
+		</connection>
+	</repository>
+
+	<mailingLists>
+		<mailingList>
+			<name>jsdsi-announce</name>
+			<subscribe>http://lists.sourceforge.net/lists/listinfo/jsdsi-announce</subscribe>
+			<unsubscribe>http://lists.sourceforge.net/lists/listinfo/jsdsi-announce</unsubscribe>
+			<archive>http://sourceforge.net/mailarchive/forum.php?forum_id=38887</archive>
+		</mailingList>
+		<mailingList>
+			<name>jsdsi-users</name>
+			<subscribe>http://lists.sourceforge.net/lists/listinfo/jsdsi-users</subscribe>
+			<unsubscribe>http://lists.sourceforge.net/lists/listinfo/jsdsi-users</unsubscribe>
+			<archive>http://sourceforge.net/mailarchive/forum.php?forum_id=38902</archive>
+		</mailingList>
+		<mailingList>
+			<name>jsdsi-devel</name>
+			<subscribe>http://lists.sourceforge.net/lists/listinfo/jsdsi-devel</subscribe>
+			<unsubscribe>http://lists.sourceforge.net/lists/listinfo/jsdsi-devel</unsubscribe>
+			<archive>http://sourceforge.net/mailarchive/forum.php?forum_id=34669</archive>
+		</mailingList>
+	</mailingLists>
+
+	<developers>
+		<developer>
+			<name>Sameer Ajmani</name>
+			<id>sajma</id>
+			<email>jsdsi@ajmani.net</email>
+			<organization>M.I.T.</organization>
+			<roles>
+				<role>Project Manager</role>
+				<role>Developer</role>
+			</roles>
+			<url>http://ajmani.net</url>
+			<timezone>-5</timezone>
+		</developer>
+		<developer>
+			<name>Sean Radford</name>
+			<id>sradford</id>
+			<email>sradford@bladesystems.co.uk</email>
+			<organization>Aegeus Technology Ltd</organization>
+			<roles>
+				<role>Developer</role>
+				<role>Webmaster</role>
+			</roles>
+			<url>http://bladesys.demon.co.uk/roller/page/sradford</url>
+			<timezone>+0</timezone>
+		</developer>
+		<developer>
+			<name>Michael Jaeger</name>
+			<id>mjaeger</id>
+			<email>michael.jaeger@in-flux.de</email>
+			<organization>in-flux.de</organization>
+			<roles>
+				<role>Developer</role>
+			</roles>
+		</developer>
+		<developer>
+			<name>Luis Pedro</name>
+			<id>lpmbv</id>
+			<email>lpmbv@netcabo.pt</email>
+			<organization>n/a</organization>
+			<roles>
+				<role>Developer</role>
+			</roles>
+			<timezone>+0</timezone>
+		</developer>
+	</developers>
+
+	<dependencies>
+		<!-- cryptix:cryptix -->
+		<dependency>
+			<groupId>cryptix</groupId>
+			<artifactId>cryptix</artifactId>
+			<version>3.2</version>
+			<jar>cryptix32.jar</jar>
+			<type>jar</type>
+			<url>http://www.cryptix.org/</url>
+		</dependency>
+		<!-- novell:ldap -->
+		<dependency>
+			<groupId>novell</groupId>
+			<artifactId>ldap</artifactId>
+			<version>February 11, 2004</version>
+			<jar>ldap.jar</jar>
+			<type>jar</type>
+			<url>http://www.openldap.org/jldap/</url>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<nagEmailAddress>sradford@bladesystems.co.uk</nagEmailAddress>
+		<sourceDirectory>src/java</sourceDirectory>
+		<unitTestSourceDirectory>src/test</unitTestSourceDirectory>
+		<unitTest>
+			<includes>
+				<include>**/*Test.java</include>
+			</includes>
+			<excludes>
+				<exclude>**/RepositoryTest.java</exclude>
+			</excludes>
+			<resources>
+			<resource>
+				<directory>src/test</directory>
+				<includes>
+					<include>**/*.properties</include>
+					<include>**/certs.in.*</include>
+					<include>**/certs.out.*</include>
+				</includes>
+			</resource>
+		</resources>
+		</unitTest>
+		<resources>
+			<resource>
+				<directory>src/java</directory>
+				<includes>
+					<include>**/*.properties</include>
+				</includes>
+			</resource>
+		</resources>
+	</build>
+
+</project>

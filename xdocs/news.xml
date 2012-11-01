@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<document>
+  <properties>
+    <title>News</title>
+  </properties>
+	<body>
+		<section name="22nd March 2004">
+			<p><a href="https://sourceforge.net/project/showfiles.php?group_id=74580">Version 0.5</a> released!</p>
+			<p>The JSDSI team are pleased to announce the latest release of our SPKI/SDSI implementation.</p>
+			<p>See <a href="changes-report.html">here</a> for the full list of changes, but by way of a summary:
+			<ol>
+				<li>JSDSI now uses Maven for builds.</li>
+				<li>We've reorganized the directory structure for best use by Maven.</li>
+				<li>Added the <code>jsdsi.util</code> package (stability: semi-stable, maintainer: Sean Radford).</li>
+				<li>Added <code>jsdsi.ldap</code> package (stability: experimental, maintainer: Luis Pedro).</li>
+				<li>Added <code>jsdsi.xml</code> package (stability: experimental, maintainer: SameerAjmani). Does not yet follow any standard XML schema.</li>
+				<li>Added <code>jsdsi.sexp.SexpInput</code> and <code>jsdsi.sexp.SexpOutput</code> interfaces, and refactored <code>jsdsi.sexp.SexpInputStream</code>, <code>jsdsi.sexp.SexpOutputStream</code>, <code>jsdsi.xml.XmlReader</code>, and <code>jsdsi.xml.XmlWriter</code> to use these interfaces.</li>
+				<li>Extended S2X utility to support XML input and output.</li>
+				<li>Fixed tag intersection bug for SetTag.</li>
+				<li>Added ReversePrefixTag type.</li>
+				<li>Added <code>jsdsi.Obj#toString(int,int,int)</code> and <code>jsdsi.Obj#toTransport()</code> convenience methods.</li>
+				<li>Added JUnit tests for S-expression marshalling and LDAP.</li>
+				<li><code>jsdsi.Obj</code> now implements <code>java.io.Serializable</code></li>
+			</ol></p>
+		</section>
+		<section name="29th February 2004">
+			<p>Welcome to the new Mavenised JSDSI project!</p>
+			<p>We are moving to a better and more controlled build process, including versioning of our
+			file releases - the first being 0.5. We will produce SNAPSHOT's of the CVS version at regular
+			intervals (as and when we get time) - hopefully, we'll get around to automating it shortly.</p>
+		</section>
+	</body>
+</document>

@@ -280,4 +280,8 @@ public class LDAPTest extends TestCase {
 	        return v;
 	    }
 	}
+	
+    public void testNothingToPreventNoTestsWarning() {
+    	
+    }
 }

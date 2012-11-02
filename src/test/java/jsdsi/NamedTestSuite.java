@@ -39,4 +39,8 @@ public class NamedTestSuite extends TestSuite
         super.run(result);
         System.out.println();
     }
+    
+    public void testNothingToPreventNoTestsWarning() {
+    	
+    }
 }
